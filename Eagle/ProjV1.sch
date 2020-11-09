@@ -9334,25 +9334,27 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;
 <net name="TX/RX" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="RX"/>
-<wire x1="-91.44" y1="243.84" x2="-81.28" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="-91.44" y1="243.84" x2="-76.2" y2="243.84" width="0.1524" layer="91"/>
 <label x="-88.9" y="243.84" size="1.778" layer="95"/>
-</segment>
-<segment>
+<wire x1="-76.2" y1="243.84" x2="-76.2" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="-76.2" y1="213.36" x2="-149.86" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="-149.86" y1="213.36" x2="-149.86" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="PD1(PTCXY/OC4A/TXD0)"/>
-<wire x1="-175.26" y1="238.76" x2="-167.64" y2="238.76" width="0.1524" layer="91"/>
 <label x="-172.72" y="238.76" size="1.778" layer="95"/>
+<wire x1="-149.86" y1="238.76" x2="-175.26" y2="238.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RX/TX" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="TX"/>
-<wire x1="-91.44" y1="241.3" x2="-81.28" y2="241.3" width="0.1524" layer="91"/>
-<label x="-88.9" y="241.3" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U3" gate="G$1" pin="PD0(PTCXY/OC3A/RXD0)"/>
-<wire x1="-175.26" y1="241.3" x2="-167.64" y2="241.3" width="0.1524" layer="91"/>
 <label x="-172.72" y="241.3" size="1.778" layer="95"/>
+<wire x1="-175.26" y1="241.3" x2="-147.32" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="-147.32" y1="241.3" x2="-147.32" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="-147.32" y1="215.9" x2="-78.74" y2="215.9" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="TX"/>
+<wire x1="-91.44" y1="241.3" x2="-78.74" y2="241.3" width="0.1524" layer="91"/>
+<label x="-88.9" y="241.3" size="1.778" layer="95"/>
+<wire x1="-78.74" y1="215.9" x2="-78.74" y2="241.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DT" class="0">
