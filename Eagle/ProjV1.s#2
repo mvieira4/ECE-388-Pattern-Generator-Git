@@ -8451,6 +8451,7 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;
 <sheets>
 <sheet>
 <plain>
+<text x="-60.96" y="205.74" size="1.778" layer="91">Marcel Vieira</text>
 </plain>
 <instances>
 <instance part="U2" gate="G$1" x="-111.76" y="243.84" smashed="yes" rot="MR0">
@@ -8811,11 +8812,6 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;
 <wire x1="-175.26" y1="233.68" x2="-167.64" y2="233.68" width="0.1524" layer="91"/>
 <label x="-172.72" y="233.68" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="U3" gate="G$1" pin="PD4(XCK0/T0/PTCXY)"/>
-<wire x1="-175.26" y1="231.14" x2="-167.64" y2="231.14" width="0.1524" layer="91"/>
-<label x="-172.72" y="231.14" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="LC4" class="0">
 <segment>
@@ -8824,9 +8820,9 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;
 <label x="-86.36" y="325.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="PD6(OC0A/PTCXY/AIN0)"/>
-<wire x1="-175.26" y1="226.06" x2="-167.64" y2="226.06" width="0.1524" layer="91"/>
-<label x="-172.72" y="226.06" size="1.778" layer="95"/>
+<pinref part="U3" gate="G$1" pin="PD5(OC0B/T1/PTCXY)"/>
+<wire x1="-175.26" y1="228.6" x2="-167.64" y2="228.6" width="0.1524" layer="91"/>
+<label x="-172.72" y="228.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LC3" class="0">
@@ -8836,9 +8832,9 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;
 <label x="-170.18" y="345.44" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="PD5(OC0B/T1/PTCXY)"/>
-<wire x1="-175.26" y1="228.6" x2="-167.64" y2="228.6" width="0.1524" layer="91"/>
-<label x="-172.72" y="228.6" size="1.778" layer="95"/>
+<pinref part="U3" gate="G$1" pin="PD4(XCK0/T0/PTCXY)"/>
+<wire x1="-175.26" y1="231.14" x2="-167.64" y2="231.14" width="0.1524" layer="91"/>
+<label x="-172.72" y="231.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LC6" class="0">
@@ -9353,6 +9349,12 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;
 <label x="-269.24" y="210.82" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="U3" gate="G$1" pin="PD6(OC0A/PTCXY/AIN0)"/>
+<wire x1="-175.26" y1="226.06" x2="-167.64" y2="226.06" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
@@ -9367,13 +9369,11 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;
 <approved hash="104,1,-175.26,198.12,U3,GND,0,,,"/>
 <approved hash="104,1,-175.26,248.92,U3,AVCC,N$31,,,"/>
 <approved hash="104,1,-195.58,342.9,U1,GND,0,,,"/>
-<approved hash="106,1,-40.64,320.04,LED6,,,,,"/>
 <approved hash="106,1,-162.56,302.26,N$1,,,,,"/>
 <approved hash="106,1,-162.56,299.72,N$2,,,,,"/>
 <approved hash="106,1,-162.56,297.18,N$3,,,,,"/>
 <approved hash="106,1,-162.56,294.64,N$5,,,,,"/>
 <approved hash="106,1,-248.92,345.44,N$8,,,,,"/>
-<approved hash="106,1,-53.34,264.16,N$16,,,,,"/>
 <approved hash="209,1,-261.62,246.38,N$30,,,,,"/>
 <approved hash="106,1,-261.62,246.38,N$30,,,,,"/>
 <approved hash="106,1,-175.26,248.92,N$31,,,,,"/>
@@ -9383,8 +9383,6 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;
 <approved hash="113,1,-44.45,289.882,LED2,,,,,"/>
 <approved hash="113,1,-44.45,297.502,LED3,,,,,"/>
 <approved hash="113,1,-44.45,305.122,LED4,,,,,"/>
-<approved hash="113,1,-44.45,312.742,LED5,,,,,"/>
-<approved hash="113,1,-44.45,320.362,LED6,,,,,"/>
 <approved hash="113,1,-149.329,274.851,FRAME1,,,,,"/>
 <approved hash="113,1,-244.733,320.04,T1,,,,,"/>
 <approved hash="113,1,-254.893,312.42,T2,,,,,"/>

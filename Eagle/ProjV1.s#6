@@ -8800,12 +8800,6 @@ http://www.zetex.com&lt;p&gt;
 <label x="-172.72" y="226.06" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="Q2_GATES"/>
-<wire x1="-88.9" y1="317.5" x2="-81.28" y2="317.5" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="LC3" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="Q3_GATES"/>
@@ -9169,6 +9163,11 @@ http://www.zetex.com&lt;p&gt;
 <wire x1="-175.26" y1="218.44" x2="-167.64" y2="218.44" width="0.1524" layer="91"/>
 <label x="-172.72" y="218.44" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="Q2_GATES"/>
+<wire x1="-88.9" y1="317.5" x2="-81.28" y2="317.5" width="0.1524" layer="91"/>
+<label x="-86.36" y="317.5" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SCL" class="0">
 <segment>
@@ -9346,6 +9345,41 @@ http://www.zetex.com&lt;p&gt;
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,-132.08,264.16,U2,VDD,VBUS,,,"/>
+<approved hash="104,1,-132.08,223.52,U2,VSS,N$11,,,"/>
+<approved hash="202,1,-91.44,256.54,U2,!RST,,,,"/>
+<approved hash="202,1,-91.44,238.76,U2,!CTS,,,,"/>
+<approved hash="104,1,-132.08,261.62,U2,VUSB,N$21,,,"/>
+<approved hash="104,1,-233.68,266.7,ISP1,GND,0,,,"/>
+<approved hash="104,1,-248.92,342.9,CN1,GND,0,,,"/>
+<approved hash="104,1,-175.26,198.12,U3,GND,0,,,"/>
+<approved hash="104,1,-175.26,248.92,U3,AVCC,N$31,,,"/>
+<approved hash="104,1,-195.58,342.9,U1,GND,0,,,"/>
+<approved hash="106,1,-40.64,320.04,LED6,,,,,"/>
+<approved hash="106,1,-162.56,302.26,N$1,,,,,"/>
+<approved hash="106,1,-162.56,299.72,N$2,,,,,"/>
+<approved hash="106,1,-162.56,297.18,N$3,,,,,"/>
+<approved hash="106,1,-162.56,294.64,N$5,,,,,"/>
+<approved hash="106,1,-248.92,345.44,N$8,,,,,"/>
+<approved hash="106,1,-53.34,264.16,N$16,,,,,"/>
+<approved hash="209,1,-261.62,246.38,N$30,,,,,"/>
+<approved hash="106,1,-261.62,246.38,N$30,,,,,"/>
+<approved hash="106,1,-175.26,248.92,N$31,,,,,"/>
+<approved hash="113,1,-42.9429,340.586,JP1,,,,,"/>
+<approved hash="113,1,-257.175,349.339,CN1,,,,,"/>
+<approved hash="113,1,-44.45,282.262,LED1,,,,,"/>
+<approved hash="113,1,-44.45,289.882,LED2,,,,,"/>
+<approved hash="113,1,-44.45,297.502,LED3,,,,,"/>
+<approved hash="113,1,-44.45,305.122,LED4,,,,,"/>
+<approved hash="113,1,-44.45,312.742,LED5,,,,,"/>
+<approved hash="113,1,-44.45,320.362,LED6,,,,,"/>
+<approved hash="113,1,-149.329,274.851,FRAME1,,,,,"/>
+<approved hash="113,1,-244.733,320.04,T1,,,,,"/>
+<approved hash="113,1,-254.893,312.42,T2,,,,,"/>
+<approved hash="113,1,-232.787,312.42,T3,,,,,"/>
+<approved hash="113,1,-244.733,299.72,T4,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

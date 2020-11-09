@@ -8410,6 +8410,9 @@ http://www.zetex.com&lt;p&gt;
 <part name="T3" library="zetex" library_urn="urn:adsk.eagle:library:418" deviceset="PMOSSOT23" device="" package3d_urn="urn:adsk.eagle:package:30981/1"/>
 <part name="T4" library="zetex" library_urn="urn:adsk.eagle:library:418" deviceset="NMOSSOT23" device="" package3d_urn="urn:adsk.eagle:package:30981/1"/>
 <part name="X_7" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1u"/>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1u"/>
+<part name="X_8" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8501,11 +8504,11 @@ http://www.zetex.com&lt;p&gt;
 <attribute name="VALUE" x="-256.6728" y="191.5727" size="2.5558" layer="96"/>
 </instance>
 <instance part="X_5" gate="G$1" x="-170.18" y="195.58" smashed="yes"/>
-<instance part="U1" gate="G$1" x="-215.9" y="347.98" smashed="yes">
-<attribute name="NAME" x="-226.06" y="356.87" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-226.06" y="337.82" size="1.778" layer="96"/>
+<instance part="U1" gate="G$1" x="-210.82" y="347.98" smashed="yes">
+<attribute name="NAME" x="-220.98" y="356.87" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-220.98" y="337.82" size="1.778" layer="96"/>
 </instance>
-<instance part="X_6" gate="G$1" x="-195.58" y="337.82" smashed="yes"/>
+<instance part="X_6" gate="G$1" x="-190.5" y="337.82" smashed="yes"/>
 <instance part="T1" gate="A" x="-246.38" y="320.04" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="-248.92" y="320.04" size="1.778" layer="96" rot="MR0"/>
 <attribute name="NAME" x="-248.92" y="322.58" size="1.778" layer="95" rot="MR0"/>
@@ -8523,6 +8526,15 @@ http://www.zetex.com&lt;p&gt;
 <attribute name="NAME" x="-248.92" y="302.26" size="1.778" layer="95" rot="MR0"/>
 </instance>
 <instance part="X_7" gate="G$1" x="-246.38" y="289.56" smashed="yes"/>
+<instance part="C2" gate="G$1" x="-190.5" y="350.52" smashed="yes">
+<attribute name="NAME" x="-189.484" y="351.155" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-189.484" y="346.329" size="1.778" layer="96"/>
+</instance>
+<instance part="C3" gate="G$1" x="-228.6" y="345.44" smashed="yes">
+<attribute name="NAME" x="-227.584" y="346.075" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-227.584" y="341.249" size="1.778" layer="96"/>
+</instance>
+<instance part="X_8" gate="G$1" x="-228.6" y="337.82" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -8788,12 +8800,6 @@ http://www.zetex.com&lt;p&gt;
 <label x="-172.72" y="226.06" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="Q2_GATES"/>
-<wire x1="-88.9" y1="317.5" x2="-81.28" y2="317.5" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="LC3" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="Q3_GATES"/>
@@ -8910,13 +8916,15 @@ http://www.zetex.com&lt;p&gt;
 <segment>
 <pinref part="CN1" gate="G$1" pin="VBUS"/>
 <pinref part="U1" gate="G$1" pin="VIN"/>
-<wire x1="-231.14" y1="353.06" x2="-233.68" y2="353.06" width="0.1524" layer="91"/>
+<wire x1="-226.06" y1="353.06" x2="-228.6" y2="353.06" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="EN"/>
-<wire x1="-231.14" y1="347.98" x2="-233.68" y2="347.98" width="0.1524" layer="91"/>
-<wire x1="-233.68" y1="347.98" x2="-233.68" y2="353.06" width="0.1524" layer="91"/>
-<junction x="-233.68" y="353.06"/>
-<wire x1="-233.68" y1="353.06" x2="-248.92" y2="353.06" width="0.1524" layer="91"/>
+<wire x1="-226.06" y1="347.98" x2="-228.6" y2="347.98" width="0.1524" layer="91"/>
+<wire x1="-228.6" y1="347.98" x2="-228.6" y2="353.06" width="0.1524" layer="91"/>
+<junction x="-228.6" y="353.06"/>
+<wire x1="-228.6" y1="353.06" x2="-248.92" y2="353.06" width="0.1524" layer="91"/>
 <label x="-248.92" y="353.06" size="1.778" layer="95"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<junction x="-228.6" y="347.98"/>
 </segment>
 <segment>
 <pinref part="T1" gate="A" pin="D"/>
@@ -8966,14 +8974,22 @@ http://www.zetex.com&lt;p&gt;
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
-<wire x1="-200.66" y1="342.9" x2="-195.58" y2="342.9" width="0.1524" layer="91"/>
-<wire x1="-195.58" y1="342.9" x2="-195.58" y2="337.82" width="0.1524" layer="91"/>
+<wire x1="-195.58" y1="342.9" x2="-190.5" y2="342.9" width="0.1524" layer="91"/>
+<wire x1="-190.5" y1="342.9" x2="-190.5" y2="337.82" width="0.1524" layer="91"/>
 <pinref part="X_6" gate="G$1" pin="0"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="-190.5" y1="345.44" x2="-190.5" y2="342.9" width="0.1524" layer="91"/>
+<junction x="-190.5" y="342.9"/>
 </segment>
 <segment>
 <pinref part="T4" gate="A" pin="S"/>
 <pinref part="X_7" gate="G$1" pin="0"/>
 <wire x1="-246.38" y1="294.64" x2="-246.38" y2="289.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C3" gate="G$1" pin="2"/>
+<pinref part="X_8" gate="G$1" pin="0"/>
+<wire x1="-228.6" y1="340.36" x2="-228.6" y2="337.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$21" class="0">
@@ -9147,6 +9163,11 @@ http://www.zetex.com&lt;p&gt;
 <wire x1="-175.26" y1="218.44" x2="-167.64" y2="218.44" width="0.1524" layer="91"/>
 <label x="-172.72" y="218.44" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="Q2_GATES"/>
+<wire x1="-88.9" y1="317.5" x2="-81.28" y2="317.5" width="0.1524" layer="91"/>
+<label x="-86.36" y="317.5" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SCL" class="0">
 <segment>
@@ -9294,8 +9315,9 @@ http://www.zetex.com&lt;p&gt;
 <net name="3.3V" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="VOUT"/>
-<wire x1="-200.66" y1="353.06" x2="-195.58" y2="353.06" width="0.1524" layer="91"/>
-<label x="-200.66" y="353.06" size="1.778" layer="95"/>
+<wire x1="-195.58" y1="353.06" x2="-190.5" y2="353.06" width="0.1524" layer="91"/>
+<label x="-195.58" y="353.06" size="1.778" layer="95"/>
+<pinref part="C2" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="T3" gate="A" pin="D"/>
