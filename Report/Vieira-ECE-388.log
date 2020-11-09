@@ -1,0 +1,206 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.21)  5 NOV 2020 23:39
+entering extended mode
+**"c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/Report/Vieira-ECE-388.tex"
+("c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/Report/Vieira-ECE-388.tex"
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-09-03> (C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+) (C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+) (C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count176
+\Gm@cntv=\count177
+\c@Gm@tempcnt=\count178
+\Gm@bindingoffset=\dimen135
+\Gm@wd@mp=\dimen136
+\Gm@odd@mp=\dimen137
+\Gm@even@mp=\dimen138
+\Gm@layoutwidth=\dimen139
+\Gm@layoutheight=\dimen140
+\Gm@layouthoffset=\dimen141
+\Gm@layoutvoffset=\dimen142
+\Gm@dimlist=\toks18
+ (C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\times.sty
+Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
+) (C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+ (C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/08/26 v1.2 Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen143
+\Gin@req@width=\dimen144
+) (C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+) (C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2020-09-01 L3 backend support: PDF output (pdfTeX)
+\l__kernel_color_stack_int=\count179
+\l__pdf_internal_box=\box45
+) ("c:/Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Vieira-ECE-388.aux")
+\openout1 = `Vieira-ECE-388.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 12.
+ (C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count180
+\scratchdimen=\dimen145
+\scratchbox=\box46
+\nofMPsegments=\count181
+\nofMParguments=\count182
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count183
+\MPscratchDim=\dimen146
+\MPnumerator=\count184
+\makeMPintoPDFobject=\count185
+\everyMPtoPDFconversion=\toks20
+) (C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+) ("c:/Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Vieira-ECE-388-Title.tex" [1
+
+{C:/Users/pphantom/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]) ("c:/Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Vieira-ECE-388.toc"
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 4.
+)
+\tf@toc=\write3
+\openout3 = `Vieira-ECE-388.toc'.
+
+ ("c:/Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Vieira-ECE-388.lof")
+\tf@lof=\write4
+\openout4 = `Vieira-ECE-388.lof'.
+
+ [1]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 31.
+ (C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+) [2]
+<Pattern Gen Multisim V1.png, id=13, 511.9125pt x 417.35925pt>
+File: Pattern Gen Multisim V1.png Graphic file (type png)
+<use Pattern Gen Multisim V1.png>
+Package pdftex.def Info: Pattern Gen Multisim V1.png  used on input line 45.
+(pdftex.def)             Requested size: 227.62204pt x 185.57462pt.
+ [3]
+<Pattern Gen Eagle V1.png.png, id=18, 419.76825pt x 502.87875pt>
+File: Pattern Gen Eagle V1.png.png Graphic file (type png)
+<use Pattern Gen Eagle V1.png.png>
+Package pdftex.def Info: Pattern Gen Eagle V1.png.png  used on input line 55.
+(pdftex.def)             Requested size: 227.62204pt x 272.68613pt.
+<BOM1.png, id=19, 982.872pt x 229.45724pt>
+File: BOM1.png Graphic file (type png)
+<use BOM1.png>
+Package pdftex.def Info: BOM1.png  used on input line 61.
+(pdftex.def)             Requested size: 227.62204pt x 53.13817pt.
+ [4 <c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/Report/Pattern Gen Multisim V1.png>] [5 <c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/Report/Pattern Gen Eagle V1.png.png> <c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/Report/BOM1.png>]
+<Pattern Gen Code V1 PG 1.png, id=29, 266.1945pt x 478.78876pt>
+File: Pattern Gen Code V1 PG 1.png Graphic file (type png)
+<use Pattern Gen Code V1 PG 1.png>
+Package pdftex.def Info: Pattern Gen Code V1 PG 1.png  used on input line 75.
+(pdftex.def)             Requested size: 227.62204pt x 409.41977pt.
+<Pattern Gen Code V1 PG 2.png, id=30, 211.992pt x 479.99326pt>
+File: Pattern Gen Code V1 PG 2.png Graphic file (type png)
+<use Pattern Gen Code V1 PG 2.png>
+Package pdftex.def Info: Pattern Gen Code V1 PG 2.png  used on input line 81.
+(pdftex.def)             Requested size: 227.62204pt x 515.39676pt.
+ [6] [7 <c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/Report/Pattern Gen Code V1 PG 1.png>] [8 <c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/Report/Pattern Gen Code V1 PG 2.png>] [9] [10] ("c:/Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Vieira-ECE-388.aux") ) 
+Here is how much of TeX's memory you used:
+ 1855 strings out of 481199
+ 29803 string characters out of 2904188
+ 272027 words of memory out of 3000000
+ 17445 multiletter control sequences out of 15000+200000
+ 550411 words of font info for 55 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 36i,5n,33p,1026b,217s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/pphantom/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/pphantom/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/pphantom/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
+Output written on "c:/Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Vieira-ECE-388.pdf" (11 pages, 198653 bytes).
+PDF statistics:
+ 58 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+

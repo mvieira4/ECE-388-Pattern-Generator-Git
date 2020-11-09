@@ -1,0 +1,122 @@
+PWD c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report
+INPUT C:\Users\pphantom\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Vieira-ECE-388.tex
+OUTPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Vieira-ECE-388.log
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\times.sty
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\times.sty
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex\latex\setspace\setspace.sty
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex\latex\setspace\setspace.sty
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Vieira-ECE-388.aux
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Vieira-ECE-388.aux
+OUTPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Vieira-ECE-388.aux
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ptm.fd
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ptm.fd
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Vieira-ECE-388-Title.tex
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Vieira-ECE-388-Title.tex
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
+OUTPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Vieira-ECE-388.pdf
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT C:\Users\pphantom\AppData\Local\MiKTeX\pdftex\config\pdftex.map
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Vieira-ECE-388.toc
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Vieira-ECE-388.toc
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
+OUTPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Vieira-ECE-388.toc
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Vieira-ECE-388.lof
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Vieira-ECE-388.lof
+OUTPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Vieira-ECE-388.lof
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8c.tfm
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8c.vf
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Pattern Gen Multisim V1.png
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Pattern Gen Multisim V1.png
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Pattern Gen Multisim V1.png
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Pattern Gen Multisim V1.png
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Pattern Gen Multisim V1.png
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Pattern Gen Eagle V1.png.png
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Pattern Gen Eagle V1.png.png
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Pattern Gen Eagle V1.png.png
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Pattern Gen Eagle V1.png.png
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Pattern Gen Eagle V1.png.png
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\BOM1.png
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\BOM1.png
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\BOM1.png
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\BOM1.png
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\BOM1.png
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Pattern Gen Code V1 PG 1.png
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Pattern Gen Code V1 PG 1.png
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Pattern Gen Code V1 PG 1.png
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Pattern Gen Code V1 PG 1.png
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Pattern Gen Code V1 PG 1.png
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Pattern Gen Code V1 PG 2.png
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Pattern Gen Code V1 PG 2.png
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Pattern Gen Code V1 PG 2.png
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Pattern Gen Code V1 PG 2.png
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Pattern Gen Code V1 PG 2.png
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Vieira-ECE-388.aux
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\base\8r.enc
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmr8a.pfb
+INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmr8a.pfb

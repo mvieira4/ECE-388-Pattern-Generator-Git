@@ -1,0 +1,5 @@
+BSIM3v3.3.0 Parameter Checking.
+Warning: This model is BSIM3v3.3.0; you specified a wrong version number.
+Model = 3lp01ss:xq19
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
