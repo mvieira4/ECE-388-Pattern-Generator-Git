@@ -2779,13 +2779,15 @@ Variant with I2C interface</description>
 <contactref element="IC3" pad="4"/>
 <contactref element="IC3" pad="9"/>
 <contactref element="IC2" pad="9"/>
+<contactref element="C1" pad="2"/>
 <wire x1="49.16" y1="74.53" x2="57.52" y2="75.33" width="0" layer="19" extent="1-1"/>
 <wire x1="35.4847" y1="78.4235" x2="49.16" y2="74.53" width="0" layer="19" extent="1-1"/>
 <wire x1="29.21" y1="79.69" x2="35.4847" y2="78.4235" width="0" layer="19" extent="1-1"/>
 <wire x1="21.695" y1="78.74" x2="29.21" y2="79.69" width="0" layer="19" extent="1-1"/>
 <wire x1="16.51" y1="79.69" x2="21.695" y2="78.74" width="0" layer="19" extent="1-1"/>
-<wire x1="6.604" y1="70.79" x2="16.51" y2="79.69" width="0" layer="19" extent="1-1"/>
-<wire x1="28.2448" y1="66.294" x2="29.21" y2="79.69" width="0" layer="19" extent="1-1"/>
+<wire x1="19.05" y1="73.34" x2="21.695" y2="78.74" width="0" layer="19" extent="1-1"/>
+<wire x1="28.2448" y1="66.294" x2="19.05" y2="73.34" width="0" layer="19" extent="1-1"/>
+<wire x1="6.604" y1="70.79" x2="19.05" y2="73.34" width="0" layer="19" extent="1-1"/>
 <wire x1="17.78" y1="54.61" x2="28.2448" y2="66.294" width="0" layer="19" extent="1-1"/>
 <wire x1="29.21" y1="41.738" x2="17.78" y2="54.61" width="0" layer="19" extent="1-1"/>
 <wire x1="33.02" y1="41.738" x2="29.21" y2="41.738" width="0" layer="19" extent="1-1"/>
@@ -2796,14 +2798,6 @@ Variant with I2C interface</description>
 <wire x1="60.96" y1="41.738" x2="57.15" y2="41.738" width="0" layer="19" extent="1-1"/>
 <wire x1="59.69" y1="47.162" x2="60.96" y2="41.738" width="0" layer="19" extent="1-1"/>
 <wire x1="81.28" y1="33.43" x2="60.96" y2="41.738" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$21">
-<contactref element="U2" pad="17"/>
-<contactref element="C1" pad="1"/>
-<wire x1="19.05" y1="71.44" x2="19.05" y2="70.18513125" width="0.1524" layer="1"/>
-<wire x1="17.9444" y1="69.07953125" x2="19.05" y2="70.18513125" width="0.1524" layer="1"/>
-<wire x1="18.075" y1="67.005" x2="17.9444" y2="67.1356" width="0.1524" layer="1"/>
-<wire x1="17.9444" y1="67.1356" x2="17.9444" y2="69.07953125" width="0.1524" layer="1"/>
 </signal>
 <signal name="VCC">
 <contactref element="ISP1" pad="2"/>
@@ -2833,9 +2827,18 @@ Variant with I2C interface</description>
 <wire x1="26.04" y1="79.69" x2="24.025" y2="79.69" width="0.1524" layer="1"/>
 <contactref element="U3" pad="18"/>
 <contactref element="U$1" pad="2"/>
+<contactref element="U2" pad="1"/>
+<contactref element="U2" pad="17"/>
+<contactref element="C1" pad="1"/>
+<wire x1="19.05" y1="71.44" x2="19.05" y2="70.18513125" width="0.1524" layer="1"/>
+<wire x1="17.9444" y1="69.07953125" x2="19.05" y2="70.18513125" width="0.1524" layer="1"/>
+<wire x1="18.075" y1="67.005" x2="17.9444" y2="67.1356" width="0.1524" layer="1"/>
+<wire x1="17.9444" y1="67.1356" x2="17.9444" y2="69.07953125" width="0.1524" layer="1"/>
 <wire x1="40.64" y1="76.2" x2="49.16" y2="76.93" width="0" layer="19" extent="1-1"/>
 <wire x1="30.4546" y1="74.676" x2="40.64" y2="76.2" width="0" layer="19" extent="1-1"/>
 <wire x1="30.4546" y1="73.406" x2="30.4546" y2="74.676" width="0" layer="19" extent="1-1"/>
+<wire x1="19.05" y1="71.44" x2="24.025" y2="79.69" width="0" layer="19" extent="1-1"/>
+<wire x1="16.125" y1="59.995" x2="18.075" y2="67.005" width="0" layer="19" extent="1-1"/>
 <wire x1="78.74" y1="33.43" x2="62.23" y2="73.66" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LEDA">
@@ -2951,18 +2954,6 @@ Variant with I2C interface</description>
 <contactref element="SW1" pad="E"/>
 <contactref element="SW1" pad="C"/>
 <wire x1="2.4213" y1="45.4388" x2="16.9213" y2="42.9388" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$11">
-<contactref element="U2" pad="20"/>
-<contactref element="C1" pad="2"/>
-<wire x1="19.05" y1="73.34" x2="13.65" y2="73.34" width="0.1524" layer="1"/>
-<wire x1="13.65" y1="73.34" x2="12.7" y2="72.39" width="0.1524" layer="1"/>
-<wire x1="16.125" y1="67.005" x2="16.125" y2="67.695" width="0.1524" layer="1"/>
-<wire x1="12.7" y1="72.39" x2="12.7" y2="71.12" width="0.1524" layer="1"/>
-<wire x1="12.7" y1="71.12" x2="13.97" y2="69.85" width="0.1524" layer="1"/>
-<wire x1="15.24" y1="69.85" x2="13.97" y2="69.85" width="0.1524" layer="1"/>
-<wire x1="16.125" y1="67.005" x2="16.125" y2="68.965" width="0.1524" layer="1"/>
-<wire x1="16.125" y1="68.965" x2="15.24" y2="69.85" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$30">
 <contactref element="U3" pad="20"/>
@@ -3236,7 +3227,6 @@ Variant with I2C interface</description>
 <wire x1="21.695" y1="79.69" x2="20" y2="79.69" width="0.1524" layer="1"/>
 <wire x1="20" y1="79.69" x2="19.05" y2="78.74" width="0.1524" layer="1"/>
 <wire x1="19.05" y1="78.74" x2="19.05" y2="77.79" width="0.1524" layer="1"/>
-<contactref element="U2" pad="1"/>
 <contactref element="T1" pad="1"/>
 <contactref element="T2" pad="1"/>
 <wire x1="10.16" y1="73.99" x2="11.43" y2="72.72" width="0.1524" layer="1"/>
@@ -3259,8 +3249,10 @@ Variant with I2C interface</description>
 <wire x1="12.7" y1="69.85" x2="11.43" y2="71.12" width="0.1524" layer="1"/>
 <wire x1="11.43" y1="71.12" x2="11.43" y2="72.72" width="0.1524" layer="1"/>
 <wire x1="24.1046" y1="73.406" x2="21.695" y2="77.79" width="0" layer="19" extent="1-1"/>
-<wire x1="16.125" y1="59.995" x2="16.125" y2="58.035" width="0" layer="19" extent="1-1"/>
 <wire x1="6.604" y1="73.99" x2="16.51" y2="77.79" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="VSS">
+<contactref element="U2" pad="20"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
