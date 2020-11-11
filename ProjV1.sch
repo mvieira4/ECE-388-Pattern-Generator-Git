@@ -2975,116 +2975,6 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="switch-alps" urn="urn:adsk.eagle:library:373">
-<description>ALPS Switch from Markus Faust &amp;lt;mfaust@htwm.de&amp;gt;&lt;p&gt;
-Source: EC12E.scr from eagle.support.ger on news.cadsoft.de at 08.10.2007</description>
-<packages>
-<package name="ALPS_EC12E_SW" urn="urn:adsk.eagle:footprint:27082/1" library_version="2">
-<description>ALPS rotary encoder&lt;br&gt;
-EC12E series with push-on switch</description>
-<wire x1="-6.2" y1="-6.6" x2="6.2" y2="-6.6" width="0.127" layer="21"/>
-<wire x1="6.2" y1="-6.6" x2="6.2" y2="6.6" width="0.127" layer="21"/>
-<wire x1="6.2" y1="6.6" x2="-6.2" y2="6.6" width="0.127" layer="21"/>
-<wire x1="-6.2" y1="6.6" x2="-6.2" y2="-6.6" width="0.127" layer="21"/>
-<wire x1="-2.6" y1="1.5" x2="2.6" y2="1.5" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="3" width="0.127" layer="21"/>
-<pad name="A" x="-2.5" y="-7.5" drill="1" shape="square"/>
-<pad name="C" x="0" y="-7.5" drill="1" shape="square"/>
-<pad name="B" x="2.5" y="-7.5" drill="1" shape="square"/>
-<pad name="D" x="-2.5" y="7" drill="1" shape="square"/>
-<pad name="E" x="2.5" y="7" drill="1" shape="square"/>
-<pad name="GND1" x="-6.1" y="0" drill="2.2" shape="square"/>
-<pad name="GND2" x="6.1" y="0" drill="2.2" shape="square"/>
-<text x="-2.5" y="8.5" size="1.27" layer="25">&gt;NAME</text>
-<text x="3.5" y="-9" size="1.27" layer="27" rot="R180">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="ALPS_EC12E_SW" urn="urn:adsk.eagle:package:27083/1" type="box" library_version="2">
-<description>ALPS rotary encoder
-EC12E series with push-on switch</description>
-<packageinstances>
-<packageinstance name="ALPS_EC12E_SW"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="ENCODER" urn="urn:adsk.eagle:symbol:27079/1" library_version="2">
-<wire x1="-2.54" y1="5.08" x2="-2.54" y2="4.1275" width="0.3048" layer="94"/>
-<wire x1="-2.54" y1="4.1275" x2="-0.9525" y2="1.905" width="0.3048" layer="94"/>
-<wire x1="-1.905" y1="1.905" x2="-2.54" y2="1.905" width="0.3048" layer="94"/>
-<wire x1="-2.54" y1="1.905" x2="-2.54" y2="0" width="0.3048" layer="94"/>
-<wire x1="2.54" y1="5.08" x2="2.54" y2="4.1275" width="0.3048" layer="94"/>
-<wire x1="2.54" y1="4.1275" x2="4.1275" y2="1.905" width="0.3048" layer="94"/>
-<wire x1="3.175" y1="1.905" x2="2.54" y2="1.905" width="0.3048" layer="94"/>
-<wire x1="2.54" y1="1.905" x2="2.54" y2="0" width="0.3048" layer="94"/>
-<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<circle x="0" y="0" radius="0.5679" width="0" layer="94"/>
-<text x="-3.81" y="0" size="1.27" layer="95" rot="R90">&gt;PART</text>
-<text x="6.35" y="0" size="1.27" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="C" x="0" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="A" x="-2.54" y="7.62" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="B" x="2.54" y="7.62" visible="off" length="short" direction="pas" rot="R270"/>
-</symbol>
-<symbol name="TASTER" urn="urn:adsk.eagle:symbol:27080/1" library_version="2">
-<wire x1="-2.54" y1="0" x2="-1.5875" y2="0" width="0.3048" layer="94"/>
-<wire x1="-1.5875" y1="0" x2="0.635" y2="1.5875" width="0.3048" layer="94"/>
-<wire x1="0.635" y1="0.635" x2="0.635" y2="0" width="0.3048" layer="94"/>
-<wire x1="0.635" y1="0" x2="2.54" y2="0" width="0.3048" layer="94"/>
-<wire x1="0" y1="1.27" x2="0" y2="3.81" width="0.127" layer="94" style="shortdash"/>
-<wire x1="-0.635" y1="3.81" x2="0.635" y2="3.81" width="0.127" layer="94"/>
-<wire x1="-0.635" y1="3.81" x2="-0.635" y2="3.4925" width="0.127" layer="94"/>
-<wire x1="0.635" y1="3.81" x2="0.635" y2="3.4925" width="0.127" layer="94"/>
-<text x="-5.08" y="5.08" size="1.27" layer="95">&gt;PART</text>
-<text x="-5.08" y="-2.54" size="1.27" layer="96">&gt;VALUE</text>
-<pin name="1" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="2" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-</symbol>
-<symbol name="GEHAEUSEANSCHLUSS" urn="urn:adsk.eagle:symbol:27081/1" library_version="2">
-<wire x1="0" y1="0" x2="0.9525" y2="0" width="0.254" layer="94"/>
-<wire x1="1.5875" y1="0" x2="2.2225" y2="0" width="0.254" layer="94"/>
-<wire x1="2.8575" y1="0" x2="3.4925" y2="0" width="0.254" layer="94"/>
-<wire x1="4.1275" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
-<pin name="G" x="0" y="0" visible="pad" length="point" direction="pas"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="EC12E_SW" urn="urn:adsk.eagle:component:27084/2" prefix="SW" library_version="2">
-<description>ALPS rotary Encoder EC12E series with switch</description>
-<gates>
-<gate name="G$1" symbol="ENCODER" x="-10.16" y="-2.54" addlevel="always"/>
-<gate name="G$2" symbol="TASTER" x="10.16" y="5.08" addlevel="always"/>
-<gate name="G$3" symbol="GEHAEUSEANSCHLUSS" x="10.16" y="-5.08" addlevel="request"/>
-<gate name="G$4" symbol="GEHAEUSEANSCHLUSS" x="10.16" y="-7.62" addlevel="request"/>
-</gates>
-<devices>
-<device name="" package="ALPS_EC12E_SW">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="C" pad="C"/>
-<connect gate="G$2" pin="1" pad="D"/>
-<connect gate="G$2" pin="2" pad="E"/>
-<connect gate="G$3" pin="G" pad="GND1"/>
-<connect gate="G$4" pin="G" pad="GND2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:27083/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="EC12E2424407" constant="no"/>
-<attribute name="OC_FARNELL" value="1520813" constant="no"/>
-<attribute name="OC_NEWARK" value="74M1068" constant="no"/>
-<attribute name="POPULARITY" value="3" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Clocks">
 <description>&lt;h3&gt;SparkFun Clocks, Oscillators and Resonators&lt;/h3&gt;
 This library contains the real-time clocks, oscillators, resonators, and crystals we use. 
@@ -8457,6 +8347,78 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="EN11-HSM1BF20">
+<packages>
+<package name="EN11-HSM_TTE">
+<pad name="4" x="-2.4892" y="22.352" drill="1.0922" diameter="1.6002"/>
+<pad name="5" x="2.4892" y="22.352" drill="1.0922" diameter="1.6002"/>
+<pad name="1" x="-2.4892" y="7.874" drill="0.9906" diameter="1.4986"/>
+<pad name="3" x="0" y="7.874" drill="0.9906" diameter="1.4986"/>
+<pad name="2" x="2.4892" y="7.874" drill="0.9906" diameter="1.4986"/>
+<smd name="6" x="-5.6007" y="15.3543" dx="1.8034" dy="2.5908" layer="1"/>
+<smd name="7" x="5.6007" y="15.3543" dx="1.8034" dy="2.5908" layer="1"/>
+<wire x1="-5.9944" y1="8.7376" x2="-3.2258" y2="8.7376" width="0.1524" layer="21"/>
+<wire x1="5.9944" y1="8.7376" x2="5.9944" y2="13.716" width="0.1524" layer="21"/>
+<wire x1="5.9944" y1="22.7076" x2="-5.9944" y2="22.7076" width="0.1524" layer="21"/>
+<wire x1="-5.9944" y1="22.7076" x2="-5.9944" y2="16.9926" width="0.1524" layer="21"/>
+<wire x1="-1.778" y1="8.7376" x2="-0.7366" y2="8.7376" width="0.1524" layer="21"/>
+<wire x1="0.7366" y1="8.7376" x2="1.778" y2="8.7376" width="0.1524" layer="21"/>
+<wire x1="3.2258" y1="8.7376" x2="5.9944" y2="8.7376" width="0.1524" layer="21"/>
+<wire x1="-5.9944" y1="13.716" x2="-5.9944" y2="8.7376" width="0.1524" layer="21"/>
+<wire x1="5.9944" y1="16.9926" x2="5.9944" y2="22.7076" width="0.1524" layer="21"/>
+<text x="-3.0734" y="15.0368" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
+<text x="-1.7272" y="7.2136" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
+<wire x1="-1.8542" y1="8.8392" x2="-2.4892" y2="7.5692" width="0.1524" layer="51"/>
+<wire x1="-3.1242" y1="8.8392" x2="-2.4892" y2="7.5692" width="0.1524" layer="51"/>
+<wire x1="-5.842" y1="8.8392" x2="5.842" y2="8.8392" width="0.1524" layer="51"/>
+<wire x1="5.842" y1="8.8392" x2="5.842" y2="22.606" width="0.1524" layer="51"/>
+<wire x1="5.842" y1="22.606" x2="-5.842" y2="22.606" width="0.1524" layer="51"/>
+<wire x1="-5.842" y1="22.606" x2="-5.842" y2="8.8392" width="0.1524" layer="51"/>
+<text x="-3.0734" y="13.0048" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
+<text x="-3.2766" y="7.2136" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+</package>
+</packages>
+<symbols>
+<symbol name="EN11-HSM_TTE">
+<pin name="1" x="2.54" y="0" length="middle" direction="pas"/>
+<pin name="2" x="2.54" y="-2.54" length="middle" direction="pas"/>
+<pin name="3" x="38.1" y="-5.08" length="middle" direction="pas" rot="R180"/>
+<pin name="4" x="38.1" y="-2.54" length="middle" direction="pas" rot="R180"/>
+<pin name="5" x="38.1" y="0" length="middle" direction="pas" rot="R180"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-10.16" x2="33.02" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="33.02" y1="-10.16" x2="33.02" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="33.02" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
+<text x="15.5956" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="14.9606" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="EN11-HSM1BF20" prefix="U">
+<gates>
+<gate name="A" symbol="EN11-HSM_TTE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="EN11-HSM_TTE">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
+<connect gate="A" pin="4" pad="4"/>
+<connect gate="A" pin="5" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER_PART_NUMBER" value="EN11-HSM1BF20" constant="no"/>
+<attribute name="SOURCELIBRARY" value="TTELECTRONICS_2018-05-01A" constant="no"/>
+<attribute name="VENDOR" value="TT Electronics" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8479,7 +8441,6 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;
 <part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
 <part name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
 <part name="LED5" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
-<part name="SW1" library="switch-alps" library_urn="urn:adsk.eagle:library:373" deviceset="EC12E_SW" device="" package3d_urn="urn:adsk.eagle:package:27083/1"/>
 <part name="Y1" library="SparkFun-Clocks" deviceset="RESONATOR-16MHZ" device="SMD_3.2X1.3" value="12MHz"/>
 <part name="X_1" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
@@ -8511,6 +8472,9 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="X_11" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
+<part name="U4" library="EN11-HSM1BF20" deviceset="EN11-HSM1BF20" device=""/>
+<part name="X_12" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="X_13" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8563,14 +8527,6 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;
 </instance>
 <instance part="LED5" gate="G$1" x="-45.72" y="312.42" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-41.148" y="318.135" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="SW1" gate="G$1" x="-205.74" y="281.94" smashed="yes">
-<attribute name="PART" x="-209.55" y="281.94" size="1.27" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-199.39" y="281.94" size="1.27" layer="96" rot="R90"/>
-</instance>
-<instance part="SW1" gate="G$2" x="-205.74" y="269.24" smashed="yes" rot="MR270">
-<attribute name="PART" x="-210.82" y="274.32" size="1.27" layer="95" rot="MR270"/>
-<attribute name="VALUE" x="-203.2" y="274.32" size="1.27" layer="96" rot="MR270"/>
 </instance>
 <instance part="Y1" gate="G$1" x="-83.82" y="251.46" smashed="yes" rot="MR270">
 <attribute name="NAME" x="-81.28" y="254.762" size="1.778" layer="95" font="vector" rot="MR270" align="center-right"/>
@@ -8656,6 +8612,12 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;
 <instance part="P+7" gate="VCC" x="-139.7" y="271.78" smashed="yes">
 <attribute name="VALUE" x="-142.24" y="269.24" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="U4" gate="A" x="-210.82" y="269.24" smashed="yes">
+<attribute name="NAME" x="-195.2244" y="278.3586" size="2.0828" layer="95" ratio="6" rot="SR0"/>
+<attribute name="VALUE" x="-195.8594" y="275.8186" size="2.0828" layer="96" ratio="6" rot="SR0"/>
+</instance>
+<instance part="X_12" gate="G$1" x="-162.56" y="261.62" smashed="yes"/>
+<instance part="X_13" gate="G$1" x="-215.9" y="261.62" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -9082,6 +9044,18 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="-139.7" y1="246.38" x2="-139.7" y2="251.46" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="X_12" gate="G$1" pin="0"/>
+<wire x1="-162.56" y1="261.62" x2="-162.56" y2="266.7" width="0.1524" layer="91"/>
+<pinref part="U4" gate="A" pin="4"/>
+<wire x1="-162.56" y1="266.7" x2="-172.72" y2="266.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="X_13" gate="G$1" pin="0"/>
+<wire x1="-215.9" y1="261.62" x2="-215.9" y2="269.24" width="0.1524" layer="91"/>
+<pinref part="U4" gate="A" pin="1"/>
+<wire x1="-208.28" y1="269.24" x2="-215.9" y2="269.24" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -9236,16 +9210,6 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;
 <wire x1="-88.9" y1="251.46" x2="-91.44" y2="251.46" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="SW1" gate="G$2" pin="2"/>
-<pinref part="SW1" gate="G$1" pin="C"/>
-<wire x1="-205.74" y1="274.32" x2="-205.74" y2="276.86" width="0.1524" layer="91"/>
-<wire x1="-205.74" y1="276.86" x2="-205.74" y2="279.4" width="0.1524" layer="91"/>
-<wire x1="-205.74" y1="276.86" x2="-210.82" y2="276.86" width="0.1524" layer="91"/>
-<junction x="-205.74" y="276.86"/>
-</segment>
-</net>
 <net name="N$30" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="AREF"/>
@@ -9364,38 +9328,38 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;
 </net>
 <net name="DT" class="0">
 <segment>
-<pinref part="SW1" gate="G$1" pin="A"/>
-<wire x1="-208.28" y1="289.56" x2="-208.28" y2="294.64" width="0.1524" layer="91"/>
-<label x="-210.82" y="292.1" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U3" gate="G$1" pin="PC0(ADC0/PTCY/MISO1)"/>
 <wire x1="-261.62" y1="218.44" x2="-269.24" y2="218.44" width="0.1524" layer="91"/>
 <label x="-269.24" y="218.44" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U4" gate="A" pin="5"/>
+<wire x1="-172.72" y1="269.24" x2="-167.64" y2="269.24" width="0.1524" layer="91"/>
+<label x="-172.72" y="269.24" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="CLK" class="0">
-<segment>
-<pinref part="SW1" gate="G$1" pin="B"/>
-<wire x1="-203.2" y1="289.56" x2="-203.2" y2="294.64" width="0.1524" layer="91"/>
-<label x="-203.2" y="292.1" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="PB0(ICP1/CLKO/PTCXY)"/>
 <wire x1="-261.62" y1="241.3" x2="-269.24" y2="241.3" width="0.1524" layer="91"/>
 <label x="-269.24" y="241.3" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U4" gate="A" pin="3"/>
+<wire x1="-172.72" y1="264.16" x2="-167.64" y2="264.16" width="0.1524" layer="91"/>
+<label x="-172.72" y="264.16" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SW" class="0">
-<segment>
-<pinref part="SW1" gate="G$2" pin="1"/>
-<wire x1="-205.74" y1="264.16" x2="-205.74" y2="256.54" width="0.1524" layer="91"/>
-<label x="-203.2" y="256.54" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="PD7(PTCXY/AIN1)"/>
 <wire x1="-175.26" y1="223.52" x2="-167.64" y2="223.52" width="0.1524" layer="91"/>
 <label x="-172.72" y="223.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U4" gate="A" pin="2"/>
+<wire x1="-208.28" y1="266.7" x2="-213.36" y2="266.7" width="0.1524" layer="91"/>
+<label x="-213.36" y="266.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$9" class="0">
