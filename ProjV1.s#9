@@ -9334,6 +9334,8 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;
 <pinref part="ISP1" gate="G$1" pin="VCC"/>
 <wire x1="-233.68" y1="271.78" x2="-226.06" y2="271.78" width="0.1524" layer="91"/>
 </segment>
+</net>
+<net name="VOUT" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="VOUT"/>
 <wire x1="-195.58" y1="353.06" x2="-190.5" y2="353.06" width="0.1524" layer="91"/>
@@ -9348,9 +9350,19 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;
 <wire x1="-167.64" y1="251.46" x2="-167.64" y2="248.92" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="VCC"/>
 <wire x1="-175.26" y1="246.38" x2="-167.64" y2="246.38" width="0.1524" layer="91"/>
-<label x="-172.72" y="246.38" size="1.778" layer="95"/>
+<label x="-167.64" y="251.46" size="1.778" layer="95"/>
 <wire x1="-167.64" y1="246.38" x2="-167.64" y2="248.92" width="0.1524" layer="91"/>
 <junction x="-167.64" y="248.92"/>
+</segment>
+<segment>
+<label x="-68.58" y="231.14" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="VCC"/>
+<wire x1="-63.5" y1="231.14" x2="-68.58" y2="231.14" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="T3" gate="A" pin="D"/>
+<wire x1="-231.14" y1="312.42" x2="-231.14" y2="325.12" width="0.1524" layer="91"/>
+<label x="-231.14" y="325.12" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="VDD"/>
@@ -9362,16 +9374,6 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;
 <wire x1="-139.7" y1="261.62" x2="-139.7" y2="259.08" width="0.1524" layer="91"/>
 <wire x1="-139.7" y1="264.16" x2="-139.7" y2="261.62" width="0.1524" layer="91"/>
 <junction x="-139.7" y="261.62"/>
-</segment>
-<segment>
-<label x="-68.58" y="231.14" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="VCC"/>
-<wire x1="-63.5" y1="231.14" x2="-68.58" y2="231.14" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="T3" gate="A" pin="D"/>
-<wire x1="-231.14" y1="312.42" x2="-231.14" y2="325.12" width="0.1524" layer="91"/>
-<label x="-231.14" y="325.12" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

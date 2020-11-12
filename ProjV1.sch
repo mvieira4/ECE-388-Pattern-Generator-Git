@@ -8262,7 +8262,7 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/281/murata_04192018_CSTN_
 <instance part="X_9" gate="G$1" x="-76.2" y="294.64" smashed="yes" rot="MR0"/>
 <instance part="X_10" gate="G$1" x="-175.26" y="320.04" smashed="yes" rot="MR0"/>
 <instance part="P+6" gate="1" x="-228.6" y="360.68" smashed="yes">
-<attribute name="VALUE" x="-231.14" y="353.06" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="-231.14" y="355.6" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="P+8" gate="1" x="-256.54" y="327.66" smashed="yes">
 <attribute name="VALUE" x="-259.08" y="322.58" size="1.778" layer="96" rot="R90"/>
@@ -9042,7 +9042,6 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/281/murata_04192018_CSTN_
 <wire x1="-256.54" y1="322.58" x2="-246.38" y2="322.58" width="0.1524" layer="91"/>
 <pinref part="T2" gate="A" pin="D"/>
 <wire x1="-256.54" y1="312.42" x2="-256.54" y2="322.58" width="0.1524" layer="91"/>
-<label x="-256.54" y="322.58" size="1.778" layer="95"/>
 <pinref part="P+8" gate="1" pin="+5V"/>
 <wire x1="-256.54" y1="325.12" x2="-256.54" y2="322.58" width="0.1524" layer="91"/>
 <junction x="-256.54" y="322.58"/>

@@ -9334,6 +9334,17 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;
 <pinref part="ISP1" gate="G$1" pin="VCC"/>
 <wire x1="-233.68" y1="271.78" x2="-226.06" y2="271.78" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="VDD"/>
+<wire x1="-132.08" y1="264.16" x2="-139.7" y2="264.16" width="0.1524" layer="91"/>
+<label x="-139.7" y="264.16" size="1.778" layer="95"/>
+<pinref part="U2" gate="G$1" pin="VUSB"/>
+<wire x1="-132.08" y1="261.62" x2="-139.7" y2="261.62" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="-139.7" y1="261.62" x2="-139.7" y2="259.08" width="0.1524" layer="91"/>
+<wire x1="-139.7" y1="264.16" x2="-139.7" y2="261.62" width="0.1524" layer="91"/>
+<junction x="-139.7" y="261.62"/>
+</segment>
 </net>
 <net name="VOUT" class="0">
 <segment>
@@ -9363,17 +9374,6 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;
 <pinref part="T3" gate="A" pin="D"/>
 <wire x1="-231.14" y1="312.42" x2="-231.14" y2="325.12" width="0.1524" layer="91"/>
 <label x="-231.14" y="325.12" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U2" gate="G$1" pin="VDD"/>
-<wire x1="-132.08" y1="264.16" x2="-139.7" y2="264.16" width="0.1524" layer="91"/>
-<label x="-139.7" y="264.16" size="1.778" layer="95"/>
-<pinref part="U2" gate="G$1" pin="VUSB"/>
-<wire x1="-132.08" y1="261.62" x2="-139.7" y2="261.62" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="-139.7" y1="261.62" x2="-139.7" y2="259.08" width="0.1524" layer="91"/>
-<wire x1="-139.7" y1="264.16" x2="-139.7" y2="261.62" width="0.1524" layer="91"/>
-<junction x="-139.7" y="261.62"/>
 </segment>
 </net>
 </nets>

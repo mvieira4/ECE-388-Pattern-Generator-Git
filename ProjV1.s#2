@@ -8475,6 +8475,7 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8615,6 +8616,9 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;
 </instance>
 <instance part="+3V5" gate="G$1" x="-167.64" y="254" smashed="yes">
 <attribute name="VALUE" x="-170.18" y="248.92" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="+3V6" gate="G$1" x="-190.5" y="360.68" smashed="yes">
+<attribute name="VALUE" x="-193.04" y="355.6" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -9409,14 +9413,13 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;
 <junction x="-167.64" y="248.92"/>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
 </segment>
-</net>
-<net name="N$7" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="VOUT"/>
 <wire x1="-195.58" y1="353.06" x2="-190.5" y2="353.06" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="-190.5" y1="358.14" x2="-190.5" y2="353.06" width="0.1524" layer="91"/>
 <junction x="-190.5" y="353.06"/>
+<pinref part="+3V6" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
 </nets>

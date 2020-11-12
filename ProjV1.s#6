@@ -9333,6 +9333,7 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;
 <segment>
 <pinref part="ISP1" gate="G$1" pin="VCC"/>
 <wire x1="-233.68" y1="271.78" x2="-226.06" y2="271.78" width="0.1524" layer="91"/>
+<label x="-231.14" y="271.78" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VOUT"/>
