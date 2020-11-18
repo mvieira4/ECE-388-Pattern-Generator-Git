@@ -8,8 +8,8 @@
 </settings>
 <grid distance="0.03" unitdist="mm" unit="inch" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -20,8 +20,8 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -36,13 +36,13 @@
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -79,7 +79,7 @@
 <layer number="112" name="tSilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="113" name="IDFDebug" color="4" fill="1" visible="no" active="no"/>
 <layer number="114" name="Badge_Outline" color="11" fill="1" visible="no" active="no"/>
-<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="no"/>
 <layer number="117" name="PM_Ref" color="7" fill="1" visible="no" active="no"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
@@ -147,12 +147,12 @@
 </layers>
 <board>
 <plain>
-<wire x1="0.12" y1="-1.26" x2="100.12" y2="-1.26" width="0" layer="20"/>
-<wire x1="100.12" y1="-1.26" x2="100" y2="80" width="0" layer="20"/>
-<wire x1="100" y1="80" x2="0" y2="80" width="0" layer="20"/>
-<wire x1="0" y1="80" x2="0.12" y2="-1.26" width="0" layer="20"/>
-<text x="36.21" y="9.66" size="1.778" layer="22" rot="MR0">Marcel Vieira 11/12/20 Version 4</text>
-<text x="57.78" y="7.14" size="1.6764" layer="22" rot="MR0">https://github.com/mvieira4/ECE-388-Pattern-Gerator-Git</text>
+<wire x1="0.54" y1="-2.01" x2="64.39" y2="-1.77" width="0" layer="20"/>
+<wire x1="64.39" y1="-1.77" x2="64.21" y2="47.42" width="0" layer="20"/>
+<wire x1="64.21" y1="47.42" x2="0.36" y2="47.18" width="0" layer="20"/>
+<wire x1="0.36" y1="47.18" x2="0.54" y2="-2.01" width="0" layer="20"/>
+<text x="58.02" y="9.66" size="1.778" layer="22" rot="MR0">Marcel Vieira 11/12/20 Version 4</text>
+<text x="57.78" y="7.14" size="1.27" layer="22" rot="MR0">https://github.com/mvieira4/ECE-388-Pattern-Gerator-Git</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -1673,47 +1673,6 @@ Variant with I2C interface</description>
 </package>
 </packages>
 </library>
-<library name="10118192-0001LF">
-<packages>
-<package name="AMPHENOL_10118192-0001LF">
-<wire x1="-3.75" y1="0.225" x2="3.75" y2="0.225" width="0.127" layer="51"/>
-<wire x1="3.75" y1="0.225" x2="3.75" y2="-4.125" width="0.127" layer="51"/>
-<wire x1="3.75" y1="-4.125" x2="3.75" y2="-5.436" width="0.127" layer="51"/>
-<wire x1="3.75" y1="-5.436" x2="-3.75" y2="-5.436" width="0.127" layer="51"/>
-<wire x1="-3.75" y1="-5.436" x2="-3.75" y2="-4.125" width="0.127" layer="51"/>
-<wire x1="-3.75" y1="-4.125" x2="-3.75" y2="0.225" width="0.127" layer="51"/>
-<wire x1="3.75" y1="-4.125" x2="-3.75" y2="-4.125" width="0.127" layer="51"/>
-<wire x1="3.75" y1="-4.125" x2="7.15" y2="-4.125" width="0.127" layer="51"/>
-<text x="5.204959375" y="-3.90371875" size="0.813575" layer="51">PCB Edge</text>
-<wire x1="-3.75" y1="-1.15" x2="-3.75" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="3.75" y1="-1.15" x2="3.75" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="-3.75" y1="-3.85" x2="-3.75" y2="-4.125" width="0.127" layer="21"/>
-<wire x1="-3.75" y1="-4.125" x2="3.75" y2="-4.125" width="0.127" layer="21"/>
-<wire x1="3.75" y1="-4.125" x2="3.75" y2="-3.85" width="0.127" layer="21"/>
-<wire x1="-1.83" y1="0.225" x2="-1.72" y2="0.225" width="0.127" layer="21"/>
-<wire x1="1.72" y1="0.225" x2="1.83" y2="0.225" width="0.127" layer="21"/>
-<wire x1="-4.95" y1="0.925" x2="4.95" y2="0.925" width="0.05" layer="39"/>
-<wire x1="4.95" y1="0.925" x2="4.95" y2="-5.686" width="0.05" layer="39"/>
-<wire x1="4.95" y1="-5.686" x2="-4.95" y2="-5.686" width="0.05" layer="39"/>
-<wire x1="-4.95" y1="-5.686" x2="-4.95" y2="0.925" width="0.05" layer="39"/>
-<circle x="-1.4" y="1.3" radius="0.1" width="0.3" layer="21"/>
-<circle x="-1.4" y="1.3" radius="0.1" width="0.3" layer="51"/>
-<text x="-4.953109375" y="1.778040625" size="1.00001875" layer="25">&gt;NAME</text>
-<text x="-5.080290625" y="-6.350359375" size="1.000059375" layer="27">&gt;VALUE</text>
-<smd name="3" x="0" y="0" dx="0.4" dy="1.35" layer="1"/>
-<smd name="2" x="-0.65" y="0" dx="0.4" dy="1.35" layer="1"/>
-<smd name="4" x="0.65" y="0" dx="0.4" dy="1.35" layer="1"/>
-<smd name="1" x="-1.3" y="0" dx="0.4" dy="1.35" layer="1"/>
-<smd name="5" x="1.3" y="0" dx="0.4" dy="1.35" layer="1"/>
-<smd name="SH1" x="-3.1" y="-0.125" dx="2.1" dy="1.6" layer="1"/>
-<smd name="SH2" x="3.1" y="-0.125" dx="2.1" dy="1.6" layer="1"/>
-<smd name="SH3" x="-3.8" y="-2.675" dx="1.8" dy="1.9" layer="1" rot="R180"/>
-<smd name="SH6" x="3.8" y="-2.675" dx="1.8" dy="1.9" layer="1" rot="R180"/>
-<smd name="SH4" x="-1.2" y="-2.675" dx="1.9" dy="1.9" layer="1"/>
-<smd name="SH5" x="1.2" y="-2.675" dx="1.9" dy="1.9" layer="1"/>
-</package>
-</packages>
-</library>
 <library name="usbFromLCSC">
 <packages>
 <package name="C77238">
@@ -1734,6 +1693,29 @@ Variant with I2C interface</description>
 <wire x1="4.826" y1="7.874" x2="4.826" y2="0.254" width="0.1524" layer="21"/>
 <wire x1="4.826" y1="0.254" x2="4.318" y2="0.254" width="0.1524" layer="21"/>
 <text x="0.254" y="8.89" size="1.016" layer="25">&gt;NAME</text>
+</package>
+</packages>
+</library>
+<library name="dicons">
+<description>&lt;b&gt;Silkscreen Icons, Legend Fields and Fiducials&lt;/b&gt;&lt;p&gt;
+A collection of general purpose silkscreen icons, legends and label fields.
+&lt;h4&gt;&lt;i&gt;Copyright (C) 2004, Bob Starr (rtzaudio@mindspring.com)&lt;br&gt;
+Updated 01/08/2005&lt;/i&gt;&lt;/h4&gt;</description>
+<packages>
+<package name="FIDUCIAL_G15S">
+<description>&lt;b&gt;Global Fiducial&lt;/b&gt;&lt;p&gt;
+1.5 MM Diameter&lt;p&gt;
+Vision reference for SMD placement equipment</description>
+<wire x1="0.0001" y1="1.27" x2="0.0001" y2="-1.27" width="0.0508" layer="51"/>
+<wire x1="-1.2699" y1="0" x2="1.2701" y2="0" width="0.0508" layer="51"/>
+<wire x1="1.2701" y1="1.27" x2="1.2701" y2="-1.27" width="0.0508" layer="21"/>
+<wire x1="1.2701" y1="-1.27" x2="-1.2699" y2="-1.27" width="0.0508" layer="21"/>
+<wire x1="-1.2699" y1="-1.27" x2="-1.2699" y2="1.27" width="0.0508" layer="21"/>
+<wire x1="-1.2699" y1="1.27" x2="1.2701" y2="1.27" width="0.0508" layer="21"/>
+<circle x="0" y="0" radius="0.75" width="0" layer="1"/>
+<circle x="0" y="0" radius="0.7099" width="0" layer="41"/>
+<circle x="0" y="0" radius="0.7071" width="0.0508" layer="51"/>
+<rectangle x1="-1.2699" y1="-1.27" x2="1.2701" y2="1.27" layer="29"/>
 </package>
 </packages>
 </library>
@@ -2122,18 +2104,12 @@ Variant with I2C interface</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=81-CSTNE12M0G55A000R" x="4.14" y="123.51" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="28.78" y="42.2" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
-<element name="J1" library="10118192-0001LF" package="AMPHENOL_10118192-0001LF" value="10118192-0001LF" x="57.45" y="37.26" smashed="yes" rot="R90">
-<attribute name="AVAILABILITY" value="Good" x="57.45" y="37.26" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value=" USB - micro B USB 2.0 Receptacle Connector 5 Position Surface Mount, Right Angle " x="57.45" y="37.26" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="Amphenol ICC (FCI)" x="57.45" y="37.26" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MP" value="10118192-0001LF" x="57.45" y="37.26" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PACKAGE" value="None" x="57.45" y="37.26" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="None" x="57.45" y="37.26" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/10118192-0001LF/?ref=eda" x="57.45" y="37.26" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="USB1" library="usbFromLCSC" package="C77238" value="C77238" x="57.51" y="32.91" smashed="yes">
+<attribute name="NAME" x="57.764" y="41.8" size="1.016" layer="25"/>
 </element>
-<element name="USB1" library="usbFromLCSC" package="C77238" value="C77238" x="68.88" y="35.91" smashed="yes">
-<attribute name="NAME" x="69.134" y="44.8" size="1.016" layer="25"/>
-</element>
+<element name="U$2" library="dicons" package="FIDUCIAL_G15S" value="" x="3.81" y="1.26" smashed="yes"/>
+<element name="U$3" library="dicons" package="FIDUCIAL_G15S" value="" x="2.16" y="45.24" smashed="yes"/>
+<element name="U$4" library="dicons" package="FIDUCIAL_G15S" value="" x="61.77" y="0.36" smashed="yes"/>
 </elements>
 <signals>
 <signal name="LC">
@@ -2182,6 +2158,9 @@ Variant with I2C interface</description>
 <wire x1="46.38" y1="32.85" x2="47.28" y2="32.85" width="0.4064" layer="16"/>
 <wire x1="45.54" y1="32.01" x2="46.38" y2="32.85" width="0.4064" layer="16"/>
 <via x="47.28" y="32.85" extent="1-16" drill="0.35"/>
+<wire x1="45.51" y1="26.82" x2="45.54" y2="26.82" width="0" layer="19" extent="1-1"/>
+<wire x1="48.168" y1="23.01" x2="45.36" y2="22.83" width="0" layer="19" extent="1-1"/>
+<wire x1="48.168" y1="19.2" x2="45.36" y2="19.41" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="C1">
 <contactref element="JP1" pad="1"/>
@@ -2429,17 +2408,20 @@ Variant with I2C interface</description>
 <wire x1="52.78526875" y1="37.7488" x2="42.93286875" y2="37.7488" width="0.2032" layer="16"/>
 <wire x1="40.7378" y1="36.81813125" x2="40.7378" y2="37.4122" width="0.2032" layer="16"/>
 <wire x1="41.10813125" y1="36.4478" x2="40.7378" y2="36.81813125" width="0.2032" layer="16"/>
-<contactref element="J1" pad="2"/>
-<wire x1="52.78526875" y1="37.7488" x2="53.92406875" y2="36.61" width="0.2032" layer="1"/>
-<wire x1="53.92406875" y1="36.61" x2="57.45" y2="36.61" width="0.2032" layer="1"/>
+<contactref element="USB1" pad="3"/>
+<wire x1="57.754475" y1="36.9780625" x2="54.84600625" y2="36.9780625" width="0.2032" layer="1"/>
+<wire x1="54.84600625" y1="36.9780625" x2="54.53186875" y2="37.2922" width="0.2032" layer="1"/>
+<wire x1="53.24186875" y1="37.2922" x2="52.78526875" y2="37.7488" width="0.2032" layer="1"/>
+<wire x1="54.53186875" y1="37.2922" x2="53.24186875" y2="37.2922" width="0.2032" layer="1"/>
 </signal>
 <signal name="D-">
 <contactref element="U2" pad="2"/>
 <wire x1="29.9222" y1="37.34" x2="31.03" y2="37.34" width="0.2032" layer="1"/>
 <wire x1="29.9222" y1="37.34" x2="29.9122" y2="37.35" width="0.2032" layer="1"/>
 <via x="29.9122" y="37.35" extent="1-16" drill="0.35"/>
-<via x="54.21" y="37.23" extent="1-16" drill="0.35"/>
-<wire x1="53.55" y1="37.23" x2="54.21" y2="37.23" width="0.2032" layer="16"/>
+<via x="54.27" y="36.66" extent="1-16" drill="0.35"/>
+<wire x1="54.27" y1="36.66" x2="54.24" y2="36.63" width="0.2032" layer="16"/>
+<wire x1="54.24" y1="36.63" x2="52.95" y2="36.63" width="0.2032" layer="16"/>
 <wire x1="45.180225" y1="35.4318" x2="45.750625" y2="36.0022" width="0.2032" layer="16"/>
 <wire x1="40.619775" y1="35.4318" x2="45.180225" y2="35.4318" width="0.2032" layer="16"/>
 <wire x1="30.435575" y1="36.932" x2="39.119575" y2="36.932" width="0.2032" layer="16"/>
@@ -2447,12 +2429,14 @@ Variant with I2C interface</description>
 <wire x1="30.017575" y1="37.35" x2="30.435575" y2="36.932" width="0.2032" layer="16"/>
 <wire x1="39.119575" y1="36.932" x2="40.619775" y2="35.4318" width="0.2032" layer="16"/>
 <wire x1="46.409375" y1="36.0022" x2="48.483775" y2="33.9278" width="0.2032" layer="16"/>
-<wire x1="48.483775" y1="33.9278" x2="50.2478" y2="33.9278" width="0.2032" layer="16"/>
-<wire x1="50.2478" y1="33.9278" x2="53.55" y2="37.23" width="0.2032" layer="16"/>
+<wire x1="48.483775" y1="33.9278" x2="50.1878" y2="33.9278" width="0.2032" layer="16"/>
+<wire x1="50.1878" y1="33.9278" x2="52.89" y2="36.63" width="0.2032" layer="16"/>
 <wire x1="45.750625" y1="36.0022" x2="46.409375" y2="36.0022" width="0.2032" layer="16"/>
-<contactref element="J1" pad="3"/>
-<wire x1="57.45" y1="37.26" x2="54.24" y2="37.26" width="0.2032" layer="1"/>
-<wire x1="54.21" y1="37.23" x2="54.24" y2="37.26" width="0.2032" layer="1"/>
+<contactref element="USB1" pad="2"/>
+<wire x1="54.27" y1="36.66" x2="54.63" y2="36.3" width="0.2032" layer="1"/>
+<wire x1="57.72665" y1="36.3" x2="57.754475" y2="36.327825" width="0.2032" layer="1"/>
+<wire x1="54.63" y1="36.3" x2="57.72665" y2="36.3" width="0.2032" layer="1"/>
+<wire x1="52.89" y1="36.63" x2="52.95" y2="36.63" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$14">
 <contactref element="U2" pad="20"/>
@@ -2484,13 +2468,24 @@ Variant with I2C interface</description>
 <contactref element="U2" pad="21"/>
 <contactref element="Y1" pad="2"/>
 <contactref element="U2" pad="1"/>
-<contactref element="J1" pad="5"/>
-<wire x1="53.592" y1="30.63" x2="57.45" y2="38.56" width="0" layer="19" extent="1-1"/>
+<contactref element="USB1" pad="5"/>
+<contactref element="USB1" pad="0C"/>
+<contactref element="USB1" pad="0"/>
+<contactref element="USB1" pad="0B"/>
+<contactref element="USB1" pad="0A"/>
+<polygon width="0.4064" layer="1" isolate="0.508" orphans="yes">
+<vertex x="1.08" y="45.93"/>
+<vertex x="1.08" y="0"/>
+<vertex x="2.04" y="-0.96"/>
+<vertex x="63.03" y="-0.96"/>
+<vertex x="63.03" y="45.03"/>
+<vertex x="62.13" y="45.93"/>
+</polygon>
+<wire x1="58.3346125" y1="40.22393125" x2="57.754475" y2="38.27854375" width="0" layer="19" extent="1-1"/>
+<wire x1="49.99" y1="38.295" x2="50.07" y2="41.7" width="0" layer="19" extent="1-1"/>
+<wire x1="53.592" y1="30.63" x2="58.3346125" y2="33.72406875" width="0" layer="19" extent="1-1"/>
 <wire x1="52.57" y1="32.79" x2="53.592" y2="30.63" width="0" layer="19" extent="1-1"/>
 <wire x1="53.592" y1="26.82" x2="53.592" y2="30.63" width="0" layer="19" extent="1-1"/>
-<wire x1="48.168" y1="29.36" x2="53.592" y2="30.63" width="0" layer="19" extent="1-1"/>
-<wire x1="49.99" y1="38.295" x2="52.57" y2="32.79" width="0" layer="19" extent="1-1"/>
-<wire x1="50.07" y1="41.7" x2="49.99" y2="38.295" width="0" layer="19" extent="1-1"/>
 <wire x1="42.3998" y1="38.074" x2="49.99" y2="38.295" width="0" layer="19" extent="1-1"/>
 <wire x1="38.04" y1="41.48" x2="42.3998" y2="38.074" width="0" layer="19" extent="1-1"/>
 <wire x1="34.13" y1="39.14" x2="38.04" y2="41.48" width="0" layer="19" extent="1-1"/>
@@ -2501,11 +2496,6 @@ Variant with I2C interface</description>
 <wire x1="37.91" y1="20.74" x2="37.11" y2="29.1" width="0" layer="19" extent="1-1"/>
 <wire x1="35.0908" y1="17.182" x2="37.91" y2="20.74" width="0" layer="19" extent="1-1"/>
 <wire x1="48.168" y1="16.66" x2="37.91" y2="20.74" width="0" layer="19" extent="1-1"/>
-<wire x1="48.168" y1="12.85" x2="48.168" y2="16.66" width="0" layer="19" extent="1-1"/>
-<wire x1="53.592" y1="14.12" x2="48.168" y2="12.85" width="0" layer="19" extent="1-1"/>
-<wire x1="48.168" y1="6.5" x2="48.168" y2="12.85" width="0" layer="19" extent="1-1"/>
-<wire x1="48.168" y1="2.69" x2="48.168" y2="6.5" width="0" layer="19" extent="1-1"/>
-<wire x1="35.0908" y1="2.704" x2="48.168" y2="2.69" width="0" layer="19" extent="1-1"/>
 <wire x1="12.84" y1="41" x2="31.03" y2="37.99" width="0" layer="19" extent="1-1"/>
 <wire x1="12.27" y1="28.36" x2="12.84" y2="41" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -2969,12 +2959,13 @@ Variant with I2C interface</description>
 <wire x1="40.59" y1="13.44" x2="40.59" y2="7.83" width="0.4064" layer="1"/>
 <wire x1="35.51" y1="20.74" x2="35.51" y2="18.52" width="0.4064" layer="1"/>
 <wire x1="35.51" y1="18.52" x2="40.59" y2="13.44" width="0.4064" layer="1"/>
-<contactref element="J1" pad="1"/>
 <wire x1="53.78564375" y1="36.03" x2="52.41" y2="36.03" width="0.4064" layer="1"/>
-<wire x1="54" y1="33.3" x2="54" y2="35.81564375" width="0.4064" layer="1"/>
-<wire x1="54" y1="35.81564375" x2="53.85564375" y2="35.96" width="0.4064" layer="1"/>
-<wire x1="53.85564375" y1="35.96" x2="53.78564375" y2="36.03" width="0.4064" layer="1"/>
-<wire x1="57.45" y1="35.96" x2="53.85564375" y2="35.96" width="0.4064" layer="1"/>
+<wire x1="54" y1="33.3" x2="54" y2="35.58" width="0.4064" layer="1"/>
+<wire x1="54" y1="35.58" x2="54" y2="35.81564375" width="0.4064" layer="1"/>
+<wire x1="54" y1="35.81564375" x2="53.78564375" y2="36.03" width="0.4064" layer="1"/>
+<contactref element="USB1" pad="1"/>
+<wire x1="57.754475" y1="35.677584375" x2="54.097584375" y2="35.677584375" width="0.4064" layer="1"/>
+<wire x1="54.097584375" y1="35.677584375" x2="54" y2="35.58" width="0.4064" layer="1"/>
 </signal>
 <signal name="+3V3">
 <contactref element="T3" pad="1"/>
@@ -3113,8 +3104,14 @@ Variant with I2C interface</description>
 <wire x1="39.24" y1="32.64" x2="39.2364" y2="32.6436" width="0.2032" layer="1"/>
 <wire x1="39.2364" y1="32.6436" x2="35.0072125" y2="32.6436" width="0.2032" layer="1"/>
 </signal>
-<signal name="N$8">
-<contactref element="J1" pad="4"/>
+<signal name="1" airwireshidden="yes">
+<polygon width="0.4064" layer="16" isolate="0.508" orphans="yes">
+<vertex x="1.38" y="46.2"/>
+<vertex x="1.38" y="-0.9"/>
+<vertex x="63.06" y="-0.9"/>
+<vertex x="63.06" y="44.91"/>
+<vertex x="61.77" y="46.2"/>
+</polygon>
 </signal>
 </signals>
 <mfgpreviewcolors>
