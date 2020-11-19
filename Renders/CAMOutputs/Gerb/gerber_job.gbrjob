@@ -1,7 +1,7 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2020-11-18T14:25:30Z",
+        "CreationDate": "2020-11-19T14:40:40Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
@@ -13,7 +13,7 @@
         "BoardThickness": 1.57,
         "LayerNumber": 2,
         "Name": {
-            "ProjectId": "ProjV1"
+            "ProjectId": "ProjV5"
         },
         "Owner": "Marcel Vieira <mvieira4@umassd.edu>",
         "Size": {
