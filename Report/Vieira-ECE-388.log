@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.21)  5 NOV 2020 23:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.21)  19 NOV 2020 08:46
 entering extended mode
-**"c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/Report/Vieira-ECE-388.tex"
-("c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/Report/Vieira-ECE-388.tex"
+**"c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/ECE-388 Pattern Gerator Git/Report/Vieira-ECE-388.tex"
+("c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/ECE-388 Pattern Gerator Git/Report/Vieira-ECE-388.tex"
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-09-03> (C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
@@ -68,7 +68,7 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 File: l3backend-pdftex.def 2020-09-01 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count179
 \l__pdf_internal_box=\box45
-) ("c:/Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Vieira-ECE-388.aux")
+) ("c:/Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\Vieira-ECE-388.aux")
 \openout1 = `Vieira-ECE-388.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
@@ -139,9 +139,9 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
-) ("c:/Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Vieira-ECE-388-Title.tex" [1
+) ("c:/Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\Vieira-ECE-388-Title.tex" [1
 
-{C:/Users/pphantom/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]) ("c:/Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Vieira-ECE-388.toc"
+{C:/Users/pphantom/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]) ("c:/Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\Vieira-ECE-388.toc"
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -152,7 +152,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@toc=\write3
 \openout3 = `Vieira-ECE-388.toc'.
 
- ("c:/Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Vieira-ECE-388.lof")
+ ("c:/Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\Vieira-ECE-388.lof")
 \tf@lof=\write4
 \openout4 = `Vieira-ECE-388.lof'.
 
@@ -177,7 +177,7 @@ File: BOM1.png Graphic file (type png)
 <use BOM1.png>
 Package pdftex.def Info: BOM1.png  used on input line 61.
 (pdftex.def)             Requested size: 227.62204pt x 53.13817pt.
- [4 <c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/Report/Pattern Gen Multisim V1.png>] [5 <c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/Report/Pattern Gen Eagle V1.png.png> <c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/Report/BOM1.png>]
+ [4 <c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/ECE-388 Pattern Gerator Git/Report/Pattern Gen Multisim V1.png>] [5 <c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/ECE-388 Pattern Gerator Git/Report/Pattern Gen Eagle V1.png.png> <c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/ECE-388 Pattern Gerator Git/Report/BOM1.png>]
 <Pattern Gen Code V1 PG 1.png, id=29, 266.1945pt x 478.78876pt>
 File: Pattern Gen Code V1 PG 1.png Graphic file (type png)
 <use Pattern Gen Code V1 PG 1.png>
@@ -188,19 +188,19 @@ File: Pattern Gen Code V1 PG 2.png Graphic file (type png)
 <use Pattern Gen Code V1 PG 2.png>
 Package pdftex.def Info: Pattern Gen Code V1 PG 2.png  used on input line 81.
 (pdftex.def)             Requested size: 227.62204pt x 515.39676pt.
- [6] [7 <c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/Report/Pattern Gen Code V1 PG 1.png>] [8 <c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/Report/Pattern Gen Code V1 PG 2.png>] [9] [10] ("c:/Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Vieira-ECE-388.aux") ) 
+ [6] [7 <c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/ECE-388 Pattern Gerator Git/Report/Pattern Gen Code V1 PG 1.png>] [8 <c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/ECE-388 Pattern Gerator Git/Report/Pattern Gen Code V1 PG 2.png>] [9] [10] [11] ("c:/Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\Vieira-ECE-388.aux") ) 
 Here is how much of TeX's memory you used:
  1855 strings out of 481199
- 29803 string characters out of 2904188
+ 30251 string characters out of 2904188
  272027 words of memory out of 3000000
  17445 multiletter control sequences out of 15000+200000
  550411 words of font info for 55 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,5n,33p,1026b,217s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,5n,33p,1054b,217s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/pphantom/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/pphantom/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/pphantom/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on "c:/Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\Report\Vieira-ECE-388.pdf" (11 pages, 198653 bytes).
+Output written on "c:/Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\Vieira-ECE-388.pdf" (12 pages, 199990 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
+ 61 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
