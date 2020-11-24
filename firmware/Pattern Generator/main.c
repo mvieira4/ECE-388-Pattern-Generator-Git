@@ -23,7 +23,7 @@ static uint8_t buttonPress = 0;
 static uint8_t bit = 0;
 static uint8_t channelNum = 0;
 static uint8_t voltage = 0;
-static uint8_t channel[8] = {0x65,0x01,0xff,0xf6,0x82,0x00,0x34,0x75};
+static uint8_t channel[8] = {0x65,0b01010101,0b00111011,0xf6,0x82,0x00,0x34,0b01010101};
 
 int main(void)
 {
@@ -46,10 +46,10 @@ int main(void)
  	PCMSK1 = 0b00000001;
 	PCMSK2 = 0b10000000;
 
-    OCR1A = 0x3C08;
+    OCR1A = 0x00FF;
     TCCR1B = (1 << WGM12);
     TIMSK1 = (1 << OCIE1A);
-    TCCR1B = (1 << CS12) | (1 << CS10);
+    TCCR1B = (0b01 << CS10);
 	
 	sei();
 	
@@ -144,16 +144,16 @@ ISR(TIMER1_COMPA_vect)
 {	
 	cli();
 	
-	i=0;
-	temp = 0;
-	
-	for (i; i < 8; i++)
-	{
-		temp |= temp | (((channel[i] >> bit) & 0b00000001) << i);
-	}
-	PORTB = (temp<<1);
-	bit = (bit + 1) % 8;
-	
+ 	i=0;
+ 	temp = 0;
+ 	
+ 	for (i; i < 8; i++)
+ 	{
+ 		temp |= (((channel[i] >> (bit)) & 0b00000001) << i);
+ 	}
+ 	PORTB = temp & 0b11111110;
+ 	bit = (bit + 1) % 8;
+	 
 	sei();
 }
 

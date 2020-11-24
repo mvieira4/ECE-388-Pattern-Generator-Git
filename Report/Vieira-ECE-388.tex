@@ -83,7 +83,6 @@
         \end{figure}
 
         \par The user interface should have LEDs that start off displaying the current binary signal, this is referred to as mode 1. In mode 1 the rotary encoder changes the binary value going up when turned clockwise and down when turned counter clockwise. When the button is pressed it enters mode 2 which allows the user to view the the current channel number in binary displayed on the LEDs. Mode 2 also allows for the user to switch between channels using the rotary switch. When the button is pressed again it goes into mode 3 which simulates the display of the voltage settings which is adjustable with the rotary encoder as well.
-        
         \par Once the final design has been decided on the the design must properly be translated into a schematic that will be uploaded to Github and checked by Tim Chase. The schematic must contain all parts that are to be used, in this instance that would be the micro USB, the CMOS chips, the serial chip, the LEDs, the OLED display, and the rotary encoder. Power must flow in the schematic from the left to right and be clearly labeled. The schematic must finally pass all ERC checks with no errors or only errors approved by Tim Chase. 
         \par Once the schematic is approved by Tim Chace the board lay out can then be worked on. The board layout must include all parts, ground planes, fiducials to show the alignment of the board, and must pass all DRC checks in the file Dirty8TS.dru. On the back of the board the board must have a name, date, version number, and the Git repository link printed on the back of the board.
 
@@ -92,12 +91,66 @@
     Originally the circuit was going to use a voltage divider to drop the voltage to 3.3V, and N-type MOSFETS to toggle to logic voltages on and off but they presented several issues in the Multisim simulations. For the voltage divider applying the 3.3V to a load changed the resistance on altering the voltage and because the resistance was going to be difficult to predict the Zener diode was used. For the N-type MOSFETS they worked perfectly but each of the MOSFETS was there own chip, but after a suggestion by Tim Chace CMOS inverters were used instead which proved to be just as affective and required 3 times less chips saving space. These test processes lead to the revision of the bill of materials 3 times.
     \par For prototyping all test ran as expected proving that all systems individually are operational. This is with the exception of the linear regulator, the MCP2200 serial chip, and the OLED display.
     For the display and serial chip they have not come in time to be properly tested, but the voltage regulator was tested and failed. The failure at first was due to the wrong chip being supplied without a part number which meant that the wrong data sheet was used to wire the chip. This in turn damaged the chip and because there was only one further tests could not be done. An attempt was made to test a complete prototyping but there were complications with the 328pb which made it unable to be identified by any computer. This resulted in the 328pb not being able to be programmed. This caused the loss of another test session. Fortunately Ben Vial was able to repair the board so even if the issue occurs again there is a know solution for the problem now.
+    \par In creating the first schematic a new USB and an OLED were added to the schematic that originally only contained parts. After wiring the schematic several issues presented themselves. First the resonator that was attached to the previous schematic was the wrong size. The second issue was that there were no power labels connected. Once these corrections were made even more issues appeared. These issues were brought up by Ben Vial that let students know that the OLED display runs on 3Vs while the 328pb runs on 5V in order. To eliminate issues with communication between the 2 chips he recommended incorporate a MOSFET level shifter. After fixing this the USB had to be replaced with one that had a similar foot print to what was  in the stock sheet.
+    \par Once the schematic was all set all focus was paced on completing the layout. The issues that were worked on for the layout focused more on labeling and having correct foot prints for all components. Fiducials were also added to the layout to indicate proper orientation. While replacing one of the components in the layout it disappeared but still appeared in the schematics the rest of the time working on the boards were centralized around attempting to resolve the issues. After the third attempt the entirety of the board was populated by the correct parts.  
+    
 
     \section{Conclusion}
-    For the bill of materials it is completed but it still may change because no solution has been found to electronically switch between the sources being used for the logic levels. There are still issues with the voltage regulator and a full prototype replicating the entire system must still be tested.
+    For the bill of materials it is completed but it still may change because no solution has been found to electronically switch between the sources being used for the logic levels. There are still issues with the voltage regulator and a full prototype replicating the entire system must still be tested. The schematics and board layout have been completed but are still awaiting approval before it can be sent to the manufacturer.
 
     \section{Reflection}
     The planning and simulation had no major issues. There only three minor issues. The first was that it was unclear early on what the pattern generator was and what it was supposed to do.The second was that simulating the circuits proved difficult at first because the necessary chips were not in Multisim so they had to be built out of equivalents that had to be found in Multisim. The third issue was that no clear way to use the MOSFETS to switch between logic sources was found.
     \par In the prototyping stage one of the major issues was a lack of parts to work with which caused a lot of time to be lost and a lot of confusion. This problem was difficult to avoid due to the current pandemic and the restrictions placed as a consequence. Another issue encountered with prototyping was time management. Due to issues with the regulator a majority of lab time was spent around trouble shooting it. Because so much time was lost the rest of the test were done quickly and pictures were not taken. This is why there are no images of the first and second prototyping stages.
+    \par The process of creating a final schematic and board lay out came with unexpected issues. One of the major issues was communication. Due to the time constraints being so tight it was difficult to make changes and get the revised quickly. The biggest issue was due to a lack of understanding of what was on the write up that detailed the requirements of the schematic and layout. To solve this issue other students were consulted and they were able to clarify what was needed. In the future other students will be contacted sooner in the event of confusion.
+
+\section{Appendix}
+
+\begin{figure}[htp]
+    \centering
+    \includegraphics[width=10cm]{ProjV1.pdf}
+    \caption{Schematic V1}
+\end{figure}
+
+\begin{figure}[htp]
+    \centering
+    \includegraphics[width=10cm]{LayoutV1.png}
+    \caption{Layout V1}
+\end{figure}
+
+\begin{figure}[htp]
+    \centering
+    \includegraphics[width=10cm]{ProjV2.pdf}
+    \caption{Schematic V2}
+\end{figure}
+
+\begin{figure}[htp]
+    \centering
+    \includegraphics[width=10cm]{ProjV3.pdf}
+    \caption{Schematic V3}
+\end{figure}
+
+\begin{figure}[htp]
+    \centering
+    \includegraphics[width=10cm]{LayoutV3.png}
+    \caption{Layout V3}
+\end{figure}
+
+\begin{figure}[htp]
+    \centering
+    \includegraphics[width=10cm]{LayoutV4.png}
+    \caption{Layout V4}
+\end{figure}
+
+\begin{figure}[htp]
+    \centering
+    \includegraphics[width=10cm]{ProjV5.pdf}
+    \caption{Schematic V5}
+\end{figure}
+
+\begin{figure}[htp]
+    \centering
+    \includegraphics[width=10cm]{LayoutV5.png}
+    \caption{Layout V5}
+\end{figure}
 
 \end{document}

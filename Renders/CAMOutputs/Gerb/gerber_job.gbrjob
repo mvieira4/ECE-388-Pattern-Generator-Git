@@ -1,7 +1,7 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2020-11-19T14:40:40Z",
+        "CreationDate": "2020-11-24T01:29:05Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
@@ -17,8 +17,8 @@
         },
         "Owner": "Marcel Vieira <mvieira4@umassd.edu>",
         "Size": {
-            "X": 63.43,
-            "Y": 46.94
+            "X": 62.87,
+            "Y": 50.065
         }
     }
 }

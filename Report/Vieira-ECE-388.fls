@@ -76,11 +76,11 @@ INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.
 OUTPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\Vieira-ECE-388.toc
 INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\Vieira-ECE-388.lof
 INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\Vieira-ECE-388.lof
-OUTPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\Vieira-ECE-388.lof
 INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
 INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
 INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+OUTPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\Vieira-ECE-388.lof
 INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
 INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
 INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
@@ -114,6 +114,42 @@ INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 
 INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\Pattern Gen Code V1 PG 2.png
 INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\Pattern Gen Code V1 PG 2.png
 INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\Pattern Gen Code V1 PG 2.png
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\ProjV1.pdf
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\ProjV1.pdf
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\ProjV1.pdf
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\ProjV1.pdf
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\LayoutV1.png
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\LayoutV1.png
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\LayoutV1.png
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\LayoutV1.png
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\LayoutV1.png
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\ProjV2.pdf
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\ProjV2.pdf
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\ProjV2.pdf
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\ProjV2.pdf
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\ProjV3.pdf
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\ProjV3.pdf
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\ProjV3.pdf
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\ProjV3.pdf
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\LayoutV3.png
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\LayoutV3.png
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\LayoutV3.png
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\LayoutV3.png
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\LayoutV3.png
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\LayoutV4.png
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\LayoutV4.png
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\LayoutV4.png
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\LayoutV4.png
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\LayoutV4.png
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\ProjV5.pdf
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\ProjV5.pdf
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\ProjV5.pdf
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\ProjV5.pdf
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\LayoutV5.png
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\LayoutV5.png
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\LayoutV5.png
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\LayoutV5.png
+INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\LayoutV5.png
 INPUT c:\Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\Vieira-ECE-388.aux
 INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\base\8r.enc
 INPUT C:\Users\pphantom\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
