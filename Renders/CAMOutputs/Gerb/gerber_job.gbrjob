@@ -1,7 +1,7 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2020-11-24T01:29:05Z",
+        "CreationDate": "2020-11-30T17:16:03Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
@@ -10,15 +10,15 @@
         "Part": "Single"
     },
     "Overall": {
-        "BoardThickness": 1.57,
+        "BoardThickness": 1.671119,
         "LayerNumber": 2,
         "Name": {
-            "ProjectId": "ProjV5"
+            "ProjectId": "PatGenV5Submission"
         },
         "Owner": "Marcel Vieira <mvieira4@umassd.edu>",
         "Size": {
-            "X": 62.87,
-            "Y": 50.065
+            "X": 62.42,
+            "Y": 50.265
         }
     }
 }
