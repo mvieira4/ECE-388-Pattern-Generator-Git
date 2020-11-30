@@ -122,7 +122,7 @@ Disassembly of section .text:
 000000f2 <main>:
 static uint8_t channelNum = 0;
 static uint8_t voltage = 0;
-static uint8_t channel[8] = {0x65,0b01010101,0b00111011,0xf6,0x82,0x00,0x34,0b01010101};
+static uint8_t channel[8] = {0x65,0b01010111,0b00111011,0xf6,0x82,0x00,0x34,0b01010101};
 
 int main(void)
 {
@@ -212,11 +212,11 @@ int main(void)
  174:	fc 01       	movw	r30, r24
  176:	20 83       	st	Z, r18
 
-    OCR1A = 0x00FF;
+    OCR1A = 0x0FFF;
  178:	88 e8       	ldi	r24, 0x88	; 136
  17a:	90 e0       	ldi	r25, 0x00	; 0
  17c:	2f ef       	ldi	r18, 0xFF	; 255
- 17e:	30 e0       	ldi	r19, 0x00	; 0
+ 17e:	3f e0       	ldi	r19, 0x0F	; 15
  180:	fc 01       	movw	r30, r24
  182:	31 83       	std	Z+1, r19	; 0x01
  184:	20 83       	st	Z, r18
@@ -232,10 +232,10 @@ int main(void)
  194:	22 e0       	ldi	r18, 0x02	; 2
  196:	fc 01       	movw	r30, r24
  198:	20 83       	st	Z, r18
-    TCCR1B = (0b01 << CS10);
+    TCCR1B = (0b11 << CS10);
  19a:	81 e8       	ldi	r24, 0x81	; 129
  19c:	90 e0       	ldi	r25, 0x00	; 0
- 19e:	21 e0       	ldi	r18, 0x01	; 1
+ 19e:	23 e0       	ldi	r18, 0x03	; 3
  1a0:	fc 01       	movw	r30, r24
  1a2:	20 83       	st	Z, r18
 	

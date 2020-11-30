@@ -23,7 +23,7 @@ static uint8_t buttonPress = 0;
 static uint8_t bit = 0;
 static uint8_t channelNum = 0;
 static uint8_t voltage = 0;
-static uint8_t channel[8] = {0x65,0b01010101,0b00111011,0xf6,0x82,0x00,0x34,0b01010101};
+static uint8_t channel[8] = {0x65,0b01010111,0b00111011,0xf6,0x82,0x00,0x34,0b01010101};
 
 int main(void)
 {
@@ -46,10 +46,10 @@ int main(void)
  	PCMSK1 = 0b00000001;
 	PCMSK2 = 0b10000000;
 
-    OCR1A = 0x00FF;
+    OCR1A = 0x0FFF;
     TCCR1B = (1 << WGM12);
     TIMSK1 = (1 << OCIE1A);
-    TCCR1B = (0b01 << CS10);
+    TCCR1B = (0b11 << CS10);
 	
 	sei();
 	
