@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.21)  19 NOV 2020 22:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.21)  8 DEC 2020 11:05
 entering extended mode
 **"c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/ECE-388 Pattern Gerator Git/Report/Vieira-ECE-388.tex"
 ("c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/ECE-388 Pattern Gerator Git/Report/Vieira-ECE-388.tex"
@@ -178,71 +178,91 @@ File: BOM1.png Graphic file (type png)
 Package pdftex.def Info: BOM1.png  used on input line 61.
 (pdftex.def)             Requested size: 227.62204pt x 53.13817pt.
  [5 <c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/ECE-388 Pattern Gerator Git/Report/Pattern Gen Multisim V1.png>] [6 <c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/ECE-388 Pattern Gerator Git/Report/Pattern Gen Eagle V1.png.png> <c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/ECE-388 Pattern Gerator Git/Report/BOM1.png>]
-<Pattern Gen Code V1 PG 1.png, id=33, 266.1945pt x 478.78876pt>
+
+pdfTeX warning: pdflatex (file c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/ECE-388 Pattern Gerator Git/Report/ECE-388 sqrwv2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<ECE-388 sqrwv2.pdf, id=33, 740.04483pt x 433.62pt>
+File: ECE-388 sqrwv2.pdf Graphic file (type pdf)
+<use ECE-388 sqrwv2.pdf>
+Package pdftex.def Info: ECE-388 sqrwv2.pdf  used on input line 74.
+(pdftex.def)             Requested size: 284.52756pt x 166.71594pt.
+[7]
+<Pattern Gen Code V1 PG 1.png, id=37, 266.1945pt x 478.78876pt>
 File: Pattern Gen Code V1 PG 1.png Graphic file (type png)
 <use Pattern Gen Code V1 PG 1.png>
-Package pdftex.def Info: Pattern Gen Code V1 PG 1.png  used on input line 75.
+Package pdftex.def Info: Pattern Gen Code V1 PG 1.png  used on input line 84.
 (pdftex.def)             Requested size: 227.62204pt x 409.41977pt.
-<Pattern Gen Code V1 PG 2.png, id=34, 211.992pt x 479.99326pt>
+<Pattern Gen Code V1 PG 2.png, id=38, 211.992pt x 479.99326pt>
 File: Pattern Gen Code V1 PG 2.png Graphic file (type png)
 <use Pattern Gen Code V1 PG 2.png>
-Package pdftex.def Info: Pattern Gen Code V1 PG 2.png  used on input line 81.
+Package pdftex.def Info: Pattern Gen Code V1 PG 2.png  used on input line 90.
 (pdftex.def)             Requested size: 227.62204pt x 515.39676pt.
- [7] [8 <c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/ECE-388 Pattern Gerator Git/Report/Pattern Gen Code V1 PG 1.png>] [9 <c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/ECE-388 Pattern Gerator Git/Report/Pattern Gen Code V1 PG 2.png>] [10] [11]
-<ProjV1.pdf, id=52, 794.97pt x 614.295pt>
-File: ProjV1.pdf Graphic file (type pdf)
-<use ProjV1.pdf>
-Package pdftex.def Info: ProjV1.pdf  used on input line 110.
-(pdftex.def)             Requested size: 284.52756pt x 219.86188pt.
- [12]
-<LayoutV1.png, id=57, 323.40825pt x 223.43475pt>
-File: LayoutV1.png Graphic file (type png)
-<use LayoutV1.png>
-Package pdftex.def Info: LayoutV1.png  used on input line 116.
-(pdftex.def)             Requested size: 284.52756pt x 196.57204pt.
-<ProjV2.pdf, id=58, 794.97pt x 614.295pt>
-File: ProjV2.pdf Graphic file (type pdf)
-<use ProjV2.pdf>
-Package pdftex.def Info: ProjV2.pdf  used on input line 122.
-(pdftex.def)             Requested size: 284.52756pt x 219.86188pt.
-<ProjV3.pdf, id=59, 794.97pt x 614.295pt>
-File: ProjV3.pdf Graphic file (type pdf)
-<use ProjV3.pdf>
-Package pdftex.def Info: ProjV3.pdf  used on input line 128.
-(pdftex.def)             Requested size: 284.52756pt x 219.86188pt.
-<LayoutV3.png, id=60, 311.9655pt x 183.68625pt>
-File: LayoutV3.png Graphic file (type png)
-<use LayoutV3.png>
-Package pdftex.def Info: LayoutV3.png  used on input line 134.
-(pdftex.def)             Requested size: 284.52756pt x 167.54431pt.
-<LayoutV4.png, id=61, 314.97675pt x 181.8795pt>
-File: LayoutV4.png Graphic file (type png)
-<use LayoutV4.png>
-Package pdftex.def Info: LayoutV4.png  used on input line 140.
-(pdftex.def)             Requested size: 284.52756pt x 164.30058pt.
-<ProjV5.pdf, id=62, 794.97pt x 614.295pt>
+ [8 <c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/ECE-388 Pattern Gerator Git/Report/ECE-388 sqrwv2.pdf>] [9 <c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/ECE-388 Pattern Gerator Git/Report/Pattern Gen Code V1 PG 1.png>] [10 <c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/ECE-388 Pattern Gerator Git/Report/Pattern Gen Code V1 PG 2.png>]
+<ProjV5.pdf, id=52, 794.97pt x 614.295pt>
 File: ProjV5.pdf Graphic file (type pdf)
 <use ProjV5.pdf>
-Package pdftex.def Info: ProjV5.pdf  used on input line 146.
+Package pdftex.def Info: ProjV5.pdf  used on input line 102.
 (pdftex.def)             Requested size: 284.52756pt x 219.86188pt.
-<LayoutV5.png, id=63, 314.97675pt x 238.491pt>
+<LayoutV5.png, id=53, 314.97675pt x 238.491pt>
 File: LayoutV5.png Graphic file (type png)
 <use LayoutV5.png>
-Package pdftex.def Info: LayoutV5.png  used on input line 152.
+Package pdftex.def Info: LayoutV5.png  used on input line 108.
 (pdftex.def)             Requested size: 284.52756pt x 215.44049pt.
- [13 <c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/ECE-388 Pattern Gerator Git/Report/ProjV1.pdf> <c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/ECE-388 Pattern Gerator Git/Report/LayoutV1.png>] [14 <c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/ECE-388 Pattern Gerator Git/Report/ProjV2.pdf> <c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/ECE-388 Pattern Gerator Git/Report/ProjV3.pdf>] [15 <c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/ECE-388 Pattern Gerator Git/Report/LayoutV3.png> <c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/ECE-388 Pattern Gerator Git/Report/LayoutV4.png>] [16 <c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/ECE-388 Pattern Gerator Git/Report/ProjV5.pdf> <c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/ECE-388 Pattern Gerator Git/Report/LayoutV5.png>] ("c:/Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\Vieira-ECE-388.aux") ) 
+ [11] [12 <c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/ECE-388 Pattern Gerator Git/Report/ProjV5.pdf> <c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/ECE-388 Pattern Gerator Git/Report/LayoutV5.png>]
+<Waveform1.png, id=71, 1137.048pt x 201.75375pt>
+File: Waveform1.png Graphic file (type png)
+<use Waveform1.png>
+Package pdftex.def Info: Waveform1.png  used on input line 118.
+(pdftex.def)             Requested size: 426.79134pt x 75.72827pt.
+<Waveform2.png, id=72, 1140.05925pt x 202.356pt>
+File: Waveform2.png Graphic file (type png)
+<use Waveform2.png>
+Package pdftex.def Info: Waveform2.png  used on input line 124.
+(pdftex.def)             Requested size: 426.79134pt x 75.75362pt.
+ [13 <c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/ECE-388 Pattern Gerator Git/Report/Waveform1.png> <c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/ECE-388 Pattern Gerator Git/Report/Waveform2.png>] [14] [15] [16]
+<ProjV1.pdf, id=87, 794.97pt x 614.295pt>
+File: ProjV1.pdf Graphic file (type pdf)
+<use ProjV1.pdf>
+Package pdftex.def Info: ProjV1.pdf  used on input line 160.
+(pdftex.def)             Requested size: 284.52756pt x 219.86188pt.
+ [17]
+<LayoutV1.png, id=91, 323.40825pt x 223.43475pt>
+File: LayoutV1.png Graphic file (type png)
+<use LayoutV1.png>
+Package pdftex.def Info: LayoutV1.png  used on input line 166.
+(pdftex.def)             Requested size: 284.52756pt x 196.57204pt.
+<ProjV2.pdf, id=92, 794.97pt x 614.295pt>
+File: ProjV2.pdf Graphic file (type pdf)
+<use ProjV2.pdf>
+Package pdftex.def Info: ProjV2.pdf  used on input line 172.
+(pdftex.def)             Requested size: 284.52756pt x 219.86188pt.
+<ProjV3.pdf, id=93, 794.97pt x 614.295pt>
+File: ProjV3.pdf Graphic file (type pdf)
+<use ProjV3.pdf>
+Package pdftex.def Info: ProjV3.pdf  used on input line 178.
+(pdftex.def)             Requested size: 284.52756pt x 219.86188pt.
+<LayoutV3.png, id=94, 311.9655pt x 183.68625pt>
+File: LayoutV3.png Graphic file (type png)
+<use LayoutV3.png>
+Package pdftex.def Info: LayoutV3.png  used on input line 184.
+(pdftex.def)             Requested size: 284.52756pt x 167.54431pt.
+<LayoutV4.png, id=95, 314.97675pt x 181.8795pt>
+File: LayoutV4.png Graphic file (type png)
+<use LayoutV4.png>
+Package pdftex.def Info: LayoutV4.png  used on input line 190.
+(pdftex.def)             Requested size: 284.52756pt x 164.30058pt.
+ [18 <c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/ECE-388 Pattern Gerator Git/Report/ProjV1.pdf> <c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/ECE-388 Pattern Gerator Git/Report/LayoutV1.png>] [19 <c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/ECE-388 Pattern Gerator Git/Report/ProjV2.pdf> <c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/ECE-388 Pattern Gerator Git/Report/ProjV3.pdf>] [20 <c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/ECE-388 Pattern Gerator Git/Report/LayoutV3.png> <c:/Users/pphantom/OneDrive/Umass/ECE-388 Work/Lab/ECE-388-Proj-V1/ECE-388 Pattern Gerator Git/Report/LayoutV4.png>] ("c:/Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\Vieira-ECE-388.aux") ) 
 Here is how much of TeX's memory you used:
- 1903 strings out of 481199
- 31027 string characters out of 2904188
+ 1921 strings out of 481199
+ 31374 string characters out of 2904188
  272027 words of memory out of 3000000
- 17485 multiletter control sequences out of 15000+200000
+ 17500 multiletter control sequences out of 15000+200000
  550411 words of font info for 55 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,5n,33p,1054b,217s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/pphantom/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/pphantom/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/pphantom/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on "c:/Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\Vieira-ECE-388.pdf" (17 pages, 393086 bytes).
+Output written on "c:/Users\pphantom\OneDrive\Umass\ECE-388 Work\Lab\ECE-388-Proj-V1\ECE-388 Pattern Gerator Git\Report\Vieira-ECE-388.pdf" (21 pages, 559809 bytes).
 PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
+ 145 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

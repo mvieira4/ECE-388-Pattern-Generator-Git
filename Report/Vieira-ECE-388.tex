@@ -18,11 +18,11 @@
 
     \section{Abstract}
 
-    This document describes the process taken in planning designing and constructing a pattern generator. The steps detailed currently include identification and defining the problem, creating a bill of materials, creating simulations, prototyping, and drafting PCB design layouts. This document also details the problems encountered along with how they were solved or proposed solutions. Due to the project still being worked on this document serves to document the progress.
+    This document describes the process taken in planning designing and constructing a pattern generator. The steps detailed includes identification and defining the problem, creating a bill of materials, creating simulations, prototyping, and drafting PCB design layouts. This document also details the problems encountered along with how they were solved or proposed solutions. Due to the project being incomplete this only details up to the creation of the PCB and the creation of a demonstrational prototype.
 
     \section{Problem Statement}
 
-    Use surface mount components and a ATMEGA 328pb to generate binary patterns at either 5V or 3.3V, with a user interface that allows a user to change the pattern as well as the logic level across 8 channels. 
+    Use surface mount components and a ATMEGA 328pb to generate binary patterns at either 5V or 3.3V, with a user interface that allows a user to change the pattern as well as the logic level across 8 independent channels. 
 
     \section{Procedures}
         \subsection{Materials}
@@ -68,6 +68,15 @@
         \par The first test conducted was connect a voltmeter to the the voltage regulator and check if the proper voltages are produced. The expected values were 5V at the input and 3.3V at the output. This ensures that the voltage does not damage the circuit and sets a base line for the voltage to expect in the inverters. 
         \par The second test is to put 5V and 3.3V to the switching circuit use the voltmeter to check if it is outputting the correct input depending on what signal is sent to it. If a high is put into the circuit it should output 3.3V, if a low is put into the circuit it should output 5V.
         \par The final test for the first prototype was to check if the CMOS inverters could produce the expected signal. To test this a clock pulse is put into the inverter and the response as well as the input are measured and compared with an oscilloscope. The result showed be the opposite of the input with the exception of the high being what voltage is put to the sources of the PMOSs in the CMOS inverters.
+
+        \begin{figure}[htp]
+            \centering
+            \includegraphics[width=10cm]{ECE-388 sqrwv2.pdf}
+            \caption{Prototype Output}
+        \end{figure}
+
+        \newpage
+
         \par After taking notes on the first prototype the second was built. This prototype is focused on the user interface. This prototype consists of a rotary encoder with a built in button, several LEDs, and a 328pb. For this prototype code was written in Atmel Studio. The code for the prototype used various interrupts with 2 pin change interrupts being used to determine the direction the rotary encoder is turned on. There is also another pin change interrupts that is used to change the button press. This user interface was tested using debugging and visual observation to tell whether it is operational. 
 
         \begin{figure}[htp]
@@ -82,27 +91,68 @@
             \caption{Pattern Gen Code V1 PG 2}
         \end{figure}
 
+        \newpage
+
         \par The user interface should have LEDs that start off displaying the current binary signal, this is referred to as mode 1. In mode 1 the rotary encoder changes the binary value going up when turned clockwise and down when turned counter clockwise. When the button is pressed it enters mode 2 which allows the user to view the the current channel number in binary displayed on the LEDs. Mode 2 also allows for the user to switch between channels using the rotary switch. When the button is pressed again it goes into mode 3 which simulates the display of the voltage settings which is adjustable with the rotary encoder as well.
         \par Once the final design has been decided on the the design must properly be translated into a schematic that will be uploaded to Github and checked by Tim Chase. The schematic must contain all parts that are to be used, in this instance that would be the micro USB, the CMOS chips, the serial chip, the LEDs, the OLED display, and the rotary encoder. Power must flow in the schematic from the left to right and be clearly labeled. The schematic must finally pass all ERC checks with no errors or only errors approved by Tim Chase. 
         \par Once the schematic is approved by Tim Chace the board lay out can then be worked on. The board layout must include all parts, ground planes, fiducials to show the alignment of the board, and must pass all DRC checks in the file Dirty8TS.dru. On the back of the board the board must have a name, date, version number, and the Git repository link printed on the back of the board.
 
+        \begin{figure}[htp]
+            \centering
+            \includegraphics[width=10cm]{ProjV5.pdf}
+            \caption{Schematic V5}
+        \end{figure}
+        
+        \begin{figure}[htp]
+            \centering
+            \includegraphics[width=10cm]{LayoutV5.png}
+            \caption{Layout V5}
+        \end{figure}
+        
+        \newpage
+
+        \par After the board received approval from Tim Chase the Gerber files were sent to JCL PCB to design create the board. Now that the boards were being manufactured an acceptance test is needed to determine whether or not the end result performs to a desirable standard. In this case the test will be how well does the device hold up to the problem statement. Does it have 8 independent channels that can be changed, does it have a UI that makes sense, and can it switch voltages? This will be tested using an a multimeter and a digital discovery which can read voltage patterns in both 5V and 3.3V.
+
+        \begin{figure}[htp]
+            \centering
+            \includegraphics[width=15cm]{Waveform1.png}
+            \caption{Schematic V5}
+        \end{figure}
+        
+        \begin{figure}[htp]
+            \centering
+            \includegraphics[width=15cm]{Waveform2.png}
+            \caption{Layout V5}
+        \end{figure}
+        
+        \newpage
+
+        \par Because of complications with the manufacturer the stencil arrived in time but the PCBs did not making board population impossible. To work around the this a fully functional prototype was created that contains similar parts to show how the board was intended to work. After it is build test the prototype in place of the final board.
 
     \section{Discussion}
     Originally the circuit was going to use a voltage divider to drop the voltage to 3.3V, and N-type MOSFETS to toggle to logic voltages on and off but they presented several issues in the Multisim simulations. For the voltage divider applying the 3.3V to a load changed the resistance on altering the voltage and because the resistance was going to be difficult to predict the Zener diode was used. For the N-type MOSFETS they worked perfectly but each of the MOSFETS was there own chip, but after a suggestion by Tim Chace CMOS inverters were used instead which proved to be just as affective and required 3 times less chips saving space. These test processes lead to the revision of the bill of materials 3 times.
     \par For prototyping all test ran as expected proving that all systems individually are operational. This is with the exception of the linear regulator, the MCP2200 serial chip, and the OLED display.
     For the display and serial chip they have not come in time to be properly tested, but the voltage regulator was tested and failed. The failure at first was due to the wrong chip being supplied without a part number which meant that the wrong data sheet was used to wire the chip. This in turn damaged the chip and because there was only one further tests could not be done. An attempt was made to test a complete prototyping but there were complications with the 328pb which made it unable to be identified by any computer. This resulted in the 328pb not being able to be programmed. This caused the loss of another test session. Fortunately Ben Vial was able to repair the board so even if the issue occurs again there is a know solution for the problem now.
     \par In creating the first schematic a new USB and an OLED were added to the schematic that originally only contained parts. After wiring the schematic several issues presented themselves. First the resonator that was attached to the previous schematic was the wrong size. The second issue was that there were no power labels connected. Once these corrections were made even more issues appeared. These issues were brought up by Ben Vial that let students know that the OLED display runs on 3Vs while the 328pb runs on 5V in order. To eliminate issues with communication between the 2 chips he recommended incorporate a MOSFET level shifter. After fixing this the USB had to be replaced with one that had a similar foot print to what was  in the stock sheet.
-    \par Once the schematic was all set all focus was paced on completing the layout. The issues that were worked on for the layout focused more on labeling and having correct foot prints for all components. Fiducials were also added to the layout to indicate proper orientation. While replacing one of the components in the layout it disappeared but still appeared in the schematics the rest of the time working on the boards were centralized around attempting to resolve the issues. After the third attempt the entirety of the board was populated by the correct parts.  
-    
+    \par Once the schematic was all set all focus was paced on completing the layout. The issues that were worked on for the layout focused more on labeling and having correct foot prints for all components. Fiducials were also added to the layout to indicate proper orientation. While replacing one of the components in the layout it disappeared but still appeared in the schematics the rest of the time working on the boards were centralized around attempting to resolve the issues. After the third attempt the entirety of the board layout was populated by the correct parts.  
+    \par After the board was cleared to send to the manufacturer by Tim the Grerbers were sent out. The stencil came in on time but the supplier sent the stencil but not the PCB. Without the PCBs I could not build and test the finished product. To resolve this problem a fully functional prototype was built in its place.
+    \par Due to not having enough time to work with the OLED or serial chip the prototypes UI only used the rotary encoder and LEDs. Although it was not ideal it was still in scope for what was acceptable.
+    \par To test the prototype for the demo the first step was to use the digital discovery to show the pattern it generated.The first 3 channels in the demo were used to number and keep track of the order of each bit in the pattern.
+    \par For the 5V setting the pattern show was perfect exactly matching what was input. When it came to using the UI that worked exactly as intended. The UI allowed for the changing of channels, changing of the selected channel pattern, and changing of voltage.
+    \par For the 3V setting the pattern shown was similar but did not match what was expected. This is hypothesized to be because of the final board being intended to have a 3.3V regulator while this prototyping uses 3V. This presents an issue because the logic range for the digital discovery is from 3V to 5V which means that because there wont be a consistent 3V.
 
     \section{Conclusion}
-    For the bill of materials it is completed but it still may change because no solution has been found to electronically switch between the sources being used for the logic levels. There are still issues with the voltage regulator and a full prototype replicating the entire system must still be tested. The schematics and board layout have been completed but are still awaiting approval before it can be sent to the manufacturer.
+    For the bill of materials it is completed but it still may change because no solution has been found to electronically switch between the sources being used for the logic levels. There are still issues with the voltage regulator and a full prototype replicating the entire system must still be tested. The schematics and board layout have been completed and have been approved.The board design was sent to the manufacturer but the PCBs did not arrive in time. To be able to demo the project still a fully functional prototype was built and tested. Although there were issues with testing the 3V setting the 5V setting worked flawlessly.
 
     \section{Reflection}
     The planning and simulation had no major issues. There only three minor issues. The first was that it was unclear early on what the pattern generator was and what it was supposed to do.The second was that simulating the circuits proved difficult at first because the necessary chips were not in Multisim so they had to be built out of equivalents that had to be found in Multisim. The third issue was that no clear way to use the MOSFETS to switch between logic sources was found.
     \par In the prototyping stage one of the major issues was a lack of parts to work with which caused a lot of time to be lost and a lot of confusion. This problem was difficult to avoid due to the current pandemic and the restrictions placed as a consequence. Another issue encountered with prototyping was time management. Due to issues with the regulator a majority of lab time was spent around trouble shooting it. Because so much time was lost the rest of the test were done quickly and pictures were not taken. This is why there are no images of the first and second prototyping stages.
     \par The process of creating a final schematic and board lay out came with unexpected issues. One of the major issues was communication. Due to the time constraints being so tight it was difficult to make changes and get the revised quickly. The biggest issue was due to a lack of understanding of what was on the write up that detailed the requirements of the schematic and layout. To solve this issue other students were consulted and they were able to clarify what was needed. In the future other students will be contacted sooner in the event of confusion.
-
+    \par Creating the final board had many issues. One of the first issues was that the PCBs did not arrive on time. This was due to not getting the board design out in time. This happened because the Github repository did not clearly show which design was the final design. This caused confusion and lead to the board getting approved later than it should have been. To improve this it would have been best to better label the final design version.
+    Had the PCBs and stencil arrived sooner the pick and place would have been used to populate a majority of the board and the OLED and pins would have been hand soldered.
+    \par Because the PCB did not arrive a fully functional prototyping was built but this prototype had a 3V regulator instead of a 3.3V regulator. This meant that the digital discovery used to test it could not accurately predict highs. Had the final PCB been constructed this would have most likely not have been the case. This could have been resolved by using an oscilloscope or having a 3.3V regulator.
+    \par For the project in its entirety the major issues had to due with a lack of time. This was because too much time was spent in the early stages of design and the equipment that was needed to test the design were on campus. This could have been resolved with more of a realization of time sensitivity due to the pandemic.
+    \par Communication also posed and issue which drained plenty of time as well. One major solution to this was to take more time and talk to more students about the formats required for the Github. Also there was an issue were Github notifications were being sent directly to spam which could have been avoided by simply checking spam and making sure that all communications went through efficently. 
 \section{Appendix}
 
 \begin{figure}[htp]
@@ -141,16 +191,5 @@
     \caption{Layout V4}
 \end{figure}
 
-\begin{figure}[htp]
-    \centering
-    \includegraphics[width=10cm]{ProjV5.pdf}
-    \caption{Schematic V5}
-\end{figure}
-
-\begin{figure}[htp]
-    \centering
-    \includegraphics[width=10cm]{LayoutV5.png}
-    \caption{Layout V5}
-\end{figure}
 
 \end{document}
